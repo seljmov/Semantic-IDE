@@ -1,0 +1,85 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="RibbonMenu.Views.RibbonHeaderMenu">
+
+
+  <Ribbon>
+    <!-- Вкладка с работой проекта -->
+    <RibbonTab Header="Работа">
+      <RibbonTab.Groups>
+        <RibbonGroupBox Header="Работа с модулями">
+          <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="100,1.5*,4*" Margin="2">
+            <RibbonButton Content="Создать" ToolTip.Tip="Создание нового модуля" Grid.Row="0" Grid.Column="0" MaxSize="Medium">
+              <RibbonButton.Icon>
+               <Image Source="/Assets/Icons/NewModule.png" />
+              </RibbonButton.Icon>
+            </RibbonButton>
+            <RibbonButton Content="Включить" ToolTip.Tip="Включить модуль из другого проекта в данный" Grid.Row="1" Grid.Column="0" Size="Medium">
+              <RibbonButton.Icon>
+                <Image Source="/Assets/Icons/AddModule.png" />
+              </RibbonButton.Icon>
+            </RibbonButton>
+            <RibbonButton Content="Исключить" ToolTip.Tip="Исключить текущий модуль из проекта" Grid.Row="2" Grid.Column="0" Size="Medium">
+              <RibbonButton.Icon>
+                <Image Source="/Assets/Icons/Exclude.png" />
+              </RibbonButton.Icon>
+            </RibbonButton>
+            <RibbonButton Content="Сделать стартовым" ToolTip.Tip="Сделать текущий модуль стартовым" Grid.Row="0" Grid.Column="1" Size="Medium">
+              <RibbonButton.Icon>
+                <Image Source="/Assets/Icons/StartupModule.png" />
+              </RibbonButton.Icon>
+            </RibbonButton>
+            <RibbonButton Content="Отменить стартовый" ToolTip.Tip="Отменить старт проекта с текущего модуля" Grid.Row="1" Grid.Column="1" Size="Medium">
+              <RibbonButton.Icon>
+                <Image Source="/Assets/Icons/CancelStartupModule.png" />
+              </RibbonButton.Icon>
+            </RibbonButton>
+          </Grid>
+        </RibbonGroupBox>
+        <RibbonGroupBox Header="Отладка">
+          <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="*" Margin="2">
+            <RibbonButton Content="Выполнить" ToolTip.Tip="Начать выполнение программы" Grid.Row="0" MaxSize="Medium">
+              <RibbonButton.Icon>
+                <Image Source="/Assets/Icons/Run.png" />
+              </RibbonButton.Icon>
+            </RibbonButton>
+            <RibbonButton Content="Остановить" ToolTip.Tip="Остановить выполнение программы" Grid.Row="1" Size="Medium">
+              <RibbonButton.Icon>
+                <Image Source="/Assets/Icons/Stop.png" />
+              </RibbonButton.Icon>
+            </RibbonButton>
+            <RibbonButton Content="Визуализировать" ToolTip.Tip="Начать визуализирование выполнения программы" Grid.Row="2" Size="Medium">
+              <RibbonButton.Icon>
+                <Image Source="/Assets/Icons/Run.png" />
+              </RibbonButton.Icon>
+            </RibbonButton>
+          </Grid>
+        </RibbonGroupBox>
+        <RibbonGroupBox Header="Правка">
+          <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="24,24" Margin="2">
+            <RibbonButton ToolTip.Tip="Сделать шаг назад" Grid.Row="0" Grid.Column="0" MaxSize="Medium">
+              <RibbonButton.Icon>
+                <Image Source="/Assets/Icons/Undo.png" />
+              </RibbonButton.Icon>
+            </RibbonButton>
+            <RibbonButton ToolTip.Tip="Сделать шаг вперед" Grid.Row="0" Grid.Column="1" Size="Medium">
+              <RibbonButton.Icon>
+                <Image Source="/Assets/Icons/Redo.png" />
+              </RibbonButton.Icon>
+            </RibbonButton>
+          </Grid>
+        </RibbonGroupBox>
+      </RibbonTab.Groups>  
+    </RibbonTab>
+    
+    <!-- Вкладка с настройками среду -->
+    <RibbonTab Header="Настройки"></RibbonTab>
+    
+    <!-- Вкладка с выбором отображаемых окон в среде -->
+    <RibbonTab Header="Вид"></RibbonTab>
+  </Ribbon>
+  
+</UserControl>
