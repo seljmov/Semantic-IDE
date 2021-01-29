@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\seljmov\\source\\repos\\SemanticProjects\\RibbonMenu\\RibbonMenu\\RibbonMenu.csproj": {}
+    "C:\\Github\\Semantic-IDE\\Templates\\RibbonMenu\\RibbonMenu\\RibbonMenu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\seljmov\\source\\repos\\SemanticProjects\\RibbonMenu\\RibbonMenu\\RibbonMenu.csproj": {
+    "C:\\Github\\Semantic-IDE\\Templates\\RibbonMenu\\RibbonMenu\\RibbonMenu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\seljmov\\source\\repos\\SemanticProjects\\RibbonMenu\\RibbonMenu\\RibbonMenu.csproj",
+        "projectUniqueName": "C:\\Github\\Semantic-IDE\\Templates\\RibbonMenu\\RibbonMenu\\RibbonMenu.csproj",
         "projectName": "RibbonMenu",
-        "projectPath": "C:\\Users\\seljmov\\source\\repos\\SemanticProjects\\RibbonMenu\\RibbonMenu\\RibbonMenu.csproj",
-        "packagesPath": "C:\\Users\\seljmov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\seljmov\\source\\repos\\SemanticProjects\\RibbonMenu\\RibbonMenu\\obj\\",
+        "projectPath": "C:\\Github\\Semantic-IDE\\Templates\\RibbonMenu\\RibbonMenu\\RibbonMenu.csproj",
+        "packagesPath": "C:\\Users\\Raziyat\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\Semantic-IDE\\Templates\\RibbonMenu\\RibbonMenu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\seljmov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Raziyat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
