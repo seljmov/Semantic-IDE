@@ -19,7 +19,7 @@
     <RibbonTab Header="Работа">
       <RibbonTab.Groups>
         <RibbonGroupBox Header="Работа с модулями">
-          <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="100,1.5*,4*" Margin="2">
+          <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="100,*" Margin="2">
             <RibbonButton Grid.Row="0" Grid.Column="0" MaxSize="Medium">
               <RibbonButton.Content>
                 <TextBlock Text="Создать" />
@@ -141,7 +141,7 @@
     <RibbonTab Header="Настройки">
       <RibbonTab.Groups>
         <RibbonGroupBox Header="Язык">
-          <Grid RowDefinitions="24,24,24" ColumnDefinitions="100,125">
+          <Grid RowDefinitions="24,24,24" ColumnDefinitions="110,140">
             <TextBlock Grid.Row="0" Grid.Column="0" Text="Язык интерфейса" Classes="DefaultSize"/>
             <ComboBox  Grid.Row="0" Grid.Column="1" SelectedIndex="0" Classes="DefaultSize">
               <ComboBoxItem>Русский</ComboBoxItem>
@@ -163,17 +163,21 @@
           </Grid>
         </RibbonGroupBox>
         <RibbonGroupBox Header="Интерпретатор">
-          <Grid RowDefinitions="24" ColumnDefinitions="115,115" Margin="2">
+          <Grid RowDefinitions="24" ColumnDefinitions="125,134">
             <TextBlock Grid.Row="0" Grid.Column="0" Text="Режим копирования" Classes="DefaultSize"/>
             <ComboBox  Grid.Row="0" Grid.Column="1" SelectedIndex="0" Classes="DefaultSize">
               <ComboBoxItem>Глубокий</ComboBoxItem>
               <ComboBoxItem>Поверхностный</ComboBoxItem>
             </ComboBox>
           </Grid>
-          <CheckBox>Открывать файлы после выполнения</CheckBox>
+          <CheckBox Classes="DefaultSize">
+            <CheckBox.Content>
+              <TextBlock Text="Открывать файлы после выполнения" />
+            </CheckBox.Content>
+          </CheckBox>
         </RibbonGroupBox>
         <RibbonGroupBox Header="Темы">
-          <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="Auto" Margin="2">
+          <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="Auto">
             <RibbonButton Grid.Row="0" Grid.Column="0" MaxSize="Medium" Classes="DefaultSize">
               <RibbonButton.Content>
                 <TextBlock Text="Светлая" />
@@ -201,7 +205,7 @@
           </Grid>
         </RibbonGroupBox>
         <RibbonGroupBox Header="Редактор">
-          <Grid RowDefinitions="Auto" ColumnDefinitions="Auto,Auto" Margin="2">
+          <Grid RowDefinitions="Auto" ColumnDefinitions="Auto,Auto">
             <Grid Grid.Column="0" RowDefinitions="24,24,24" ColumnDefinitions="100,125" Margin="0,0,8,0">
               <TextBlock Grid.Row="0" Grid.Column="0" Text="Шрифт" Classes="DefaultSize"/>
               <ComboBox  Grid.Row="0" Grid.Column="1" SelectedIndex="2" Classes="DefaultSize">
@@ -263,7 +267,7 @@
           </Grid>
         </RibbonGroupBox>
         <RibbonGroupBox Header="Интерфейс">
-          <Grid RowDefinitions="24,24" ColumnDefinitions="90,115" Margin="2">
+          <Grid RowDefinitions="24,24" ColumnDefinitions="100,125">
             <TextBlock Grid.Row="0" Grid.Column="0" Text="Шрифт" Classes="DefaultSize"/>
             <ComboBox  Grid.Row="0" Grid.Column="1" SelectedIndex="0" Classes="DefaultSize">
               <ComboBoxItem FontFamily="Consolas">Consolas</ComboBoxItem>
@@ -298,8 +302,8 @@
     <RibbonTab Header="Вид">
       <RibbonTab.Groups>
         <RibbonGroupBox Header="Обозреватели">
-          <Grid RowDefinitions="24,24,24" ColumnDefinitions="115,115" Margin="2">
-            <RibbonButton Content="Проект" Grid.Row="0" Grid.Column="0" MaxSize="Medium">
+          <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="Auto,Auto" Margin="0,2,0,2">
+            <RibbonButton Grid.Row="0" Grid.Column="0" MaxSize="Medium">
               <RibbonButton.Content>
                 <TextBlock Text="Проект" />
               </RibbonButton.Content>
@@ -310,7 +314,7 @@
                 <Image Source="/Assets/Icons/Project.png" />
               </RibbonButton.Icon>
             </RibbonButton>
-            <RibbonButton Content="Задачник" Grid.Row="1" Grid.Column="0" MaxSize="Medium">
+            <RibbonButton Grid.Row="1" Grid.Column="0" MaxSize="Medium">
               <RibbonButton.Content>
                 <TextBlock Text="Задачник" />
               </RibbonButton.Content>
@@ -368,7 +372,7 @@
           </Grid>
         </RibbonGroupBox>
         <RibbonGroupBox Header="Окна">
-          <Grid RowDefinitions="24,24,24" ColumnDefinitions="200,*" Margin="2">
+          <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="Auto,Auto" Margin="0,2,0,2">
             <RibbonButton Grid.Row="0" Grid.Column="0" MaxSize="Medium">
               <RibbonButton.Content>
                 <TextBlock Text="Закрыть все документы" />

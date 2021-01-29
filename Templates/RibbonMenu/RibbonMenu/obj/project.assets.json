@@ -9083,26 +9083,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Raziyat\\.nuget\\packages\\": {}
+    "/home/seljmov/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Github\\Semantic-IDE\\Templates\\RibbonMenu\\RibbonMenu\\RibbonMenu.csproj",
+      "projectUniqueName": "/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/RibbonMenu.csproj",
       "projectName": "RibbonMenu",
-      "projectPath": "C:\\Github\\Semantic-IDE\\Templates\\RibbonMenu\\RibbonMenu\\RibbonMenu.csproj",
-      "packagesPath": "C:\\Users\\Raziyat\\.nuget\\packages\\",
-      "outputPath": "C:\\Github\\Semantic-IDE\\Templates\\RibbonMenu\\RibbonMenu\\obj\\",
+      "projectPath": "/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/RibbonMenu.csproj",
+      "packagesPath": "/home/seljmov/.nuget/packages/",
+      "outputPath": "/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Raziyat\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/seljmov/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -9169,7 +9167,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/seljmov/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -9178,7 +9176,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"AvaloniaUIRibbon 1.0.5-beta\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net5.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Package 'AvaloniaUIRibbon 1.0.5-beta' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "AvaloniaUIRibbon",
       "targetGraphs": [
         "net5.0"
