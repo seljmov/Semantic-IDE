@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="0.9.12" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.9.12" />
+    <PackageReference Include="Avalonia.ReactiveUI" Version="0.9.12" />
+    <PackageReference Include="Dock.Avalonia" Version="0.9.12" />
+    <PackageReference Include="Dock.Avalonia.Themes.Default" Version="0.9.12" />
+    <PackageReference Include="Dock.Model" Version="0.9.12" />
+    <PackageReference Include="Dock.Model.ReactiveUI" Version="0.9.12" />
+  </ItemGroup>
+</Project>
