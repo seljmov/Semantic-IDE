@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\seljmov\\source\\repos\\EditTest\\EditTest\\EditTest.csproj": {}
+    "C:\\Github\\Semantic-IDE\\Templates\\EditTest\\EditTest\\EditTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\seljmov\\source\\repos\\EditTest\\EditTest\\EditTest.csproj": {
+    "C:\\Github\\Semantic-IDE\\Templates\\EditTest\\EditTest\\EditTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\seljmov\\source\\repos\\EditTest\\EditTest\\EditTest.csproj",
+        "projectUniqueName": "C:\\Github\\Semantic-IDE\\Templates\\EditTest\\EditTest\\EditTest.csproj",
         "projectName": "EditTest",
-        "projectPath": "C:\\Users\\seljmov\\source\\repos\\EditTest\\EditTest\\EditTest.csproj",
+        "projectPath": "C:\\Github\\Semantic-IDE\\Templates\\EditTest\\EditTest\\EditTest.csproj",
         "packagesPath": "C:\\Users\\seljmov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\seljmov\\source\\repos\\EditTest\\EditTest\\obj\\",
+        "outputPath": "C:\\Github\\Semantic-IDE\\Templates\\EditTest\\EditTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\seljmov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,13 +46,9 @@
             },
             "Avalonia.AvaloniaEdit": {
               "target": "Package",
-              "version": "[0.10.0-rc1, )"
-            },
-            "Avalonia.Desktop": {
-              "target": "Package",
               "version": "[0.10.0, )"
             },
-            "Avalonia.Diagnostics": {
+            "Avalonia.Desktop": {
               "target": "Package",
               "version": "[0.10.0, )"
             },

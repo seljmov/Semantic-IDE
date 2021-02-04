@@ -42,35 +42,35 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview3, )"
             },
             "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview3, )"
             },
             "Avalonia.ReactiveUI": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview3, )"
             },
             "Dock.Avalonia": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview3, )"
             },
             "Dock.Avalonia.Themes.Default": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview3, )"
             },
             "Dock.Avalonia.Themes.Metro": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview3, )"
             },
             "Dock.Model": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview3, )"
             },
             "Dock.Model.ReactiveUI": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview3, )"
             }
           },
           "imports": [

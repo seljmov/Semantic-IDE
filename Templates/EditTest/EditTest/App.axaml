@@ -3,10 +3,9 @@
              xmlns:cc="clr-namespace:AvaloniaEdit.CodeCompletion;assembly=AvaloniaEdit"
              xmlns:local="clr-namespace:EditTest"
              x:Class="EditTest.App">
-  
-    <Application.Styles>
-      <FluentTheme Mode="Light" />
-      <StyleInclude Source="avares://AvaloniaEdit/AvaloniaEdit.xaml" />
-    </Application.Styles>
 
+  <Application.Styles>
+    <FluentTheme Mode="Dark" />
+    <StyleInclude Source="avares://AvaloniaEdit/AvaloniaEdit.xaml" />
+  </Application.Styles>
 </Application>

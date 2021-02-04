@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Avalonia.Data;
+using Avalonia.Controls;
 using SemInterface.Models;
 using SemInterface.Models.Tools;
 using SemInterface.ViewModels;
@@ -218,16 +219,7 @@ namespace SemInterface
             };
 
             this.HostWindowLocator = new Dictionary<string, Func<IHostWindow>>
-            {
-                [nameof(IDockWindow)] = () =>
-                {
-                    var hostWindow = new HostWindow()
-                    {
-                        [!HostWindow.TitleProperty] = new Binding("ActiveDockable.Title")
-                    };
-                    return hostWindow;
-                }
-            };
+            { };
 
             this.DockableLocator = new Dictionary<string, Func<IDockable>>
             { };

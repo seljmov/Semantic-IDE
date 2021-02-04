@@ -42,31 +42,47 @@
           "dependencies": {
             "Avalonia": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0, )"
+            },
+            "Avalonia.AvaloniaEdit": {
+              "target": "Package",
+              "version": "[0.10.0, )"
             },
             "Avalonia.Desktop": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0, )"
             },
             "Avalonia.ReactiveUI": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0, )"
             },
             "Dock.Avalonia": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview3, )"
             },
             "Dock.Avalonia.Themes.Default": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview3, )"
             },
             "Dock.Model": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview3, )"
             },
             "Dock.Model.ReactiveUI": {
               "target": "Package",
-              "version": "[0.9.12, )"
+              "version": "[0.10.0-preview3, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "System.Collections.Immutable": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Xml.ReaderWriter": {
+              "target": "Package",
+              "version": "[4.3.1, )"
             }
           },
           "imports": [
