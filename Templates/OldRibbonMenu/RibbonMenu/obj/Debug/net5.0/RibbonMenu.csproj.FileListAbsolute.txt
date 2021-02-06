@@ -1,0 +1,268 @@
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/obj/Debug/net5.0/RibbonMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/obj/Debug/net5.0/RibbonMenu.AssemblyInfoInputs.cache
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/obj/Debug/net5.0/RibbonMenu.AssemblyInfo.cs
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/obj/Debug/net5.0/RibbonMenu.csproj.CoreCompileInputs.cache
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/RibbonMenu.exe
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/RibbonMenu.deps.json
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/RibbonMenu.runtimeconfig.json
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/RibbonMenu.runtimeconfig.dev.json
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/RibbonMenu.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/ref/RibbonMenu.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/RibbonMenu.pdb
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Animation.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Base.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Controls.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.DesignerSupport.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.DesktopRuntime.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Diagnostics.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Dialogs.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Input.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Interactivity.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Layout.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Logging.Serilog.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Markup.Xaml.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Markup.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.OpenGL.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Styling.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Themes.Default.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Visuals.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Desktop.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Direct2D1.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.FreeDesktop.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Native.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.ReactiveUI.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Remote.Protocol.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Skia.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Win32.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.X11.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/AvaloniaUI.Ribbon.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Dock.Avalonia.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Dock.Avalonia.Themes.Default.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Dock.Model.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Dock.Model.ReactiveUI.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/DynamicData.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/JetBrains.Annotations.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Microsoft.CodeAnalysis.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Microsoft.CodeAnalysis.VisualBasic.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Microsoft.VisualBasic.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/ReactiveUI.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Serilog.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Serilog.Sinks.Debug.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Serilog.Sinks.Trace.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/SharpDX.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/SharpDX.Direct2D1.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/SharpDX.Direct3D11.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/SharpDX.DXGI.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/SharpGen.Runtime.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/SharpGen.Runtime.COM.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/SkiaSharp.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Splat.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/System.Drawing.Common.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/System.Reactive.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/System.Runtime.InteropServices.WindowsRuntime.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Tmds.DBus.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/osx/native/libAvaloniaNative.dylib
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/linux-arm/native/libSkiaSharp.so
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/linux-x64/native/libSkiaSharp.so
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/debian-x64/native/libuv.so
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/fedora-x64/native/libuv.so
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/opensuse-x64/native/libuv.so
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/osx/native/libuv.dylib
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/rhel-x64/native/libuv.so
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/win7-arm/native/libuv.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/win7-x64/native/libuv.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/win7-x86/native/libuv.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/osx/native/libSkiaSharp.dylib
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/tizen-armel/native/libSkiaSharp.so
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/tizen-x86/native/libSkiaSharp.so
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/win-x64/native/libSkiaSharp.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/win-x86/native/libSkiaSharp.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/obj/Debug/net5.0/RibbonMenu.csproj.CopyComplete
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/obj/Debug/net5.0/RibbonMenu.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/obj/Debug/net5.0/ref/RibbonMenu.dll
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/obj/Debug/net5.0/RibbonMenu.pdb
+C:/Users/seljmov/source/repos/SemanticProjects/RibbonMenu/RibbonMenu/obj/Debug/net5.0/RibbonMenu.genruntimeconfig.cache
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/RibbonMenu
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/RibbonMenu.deps.json
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/RibbonMenu.runtimeconfig.json
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/RibbonMenu.runtimeconfig.dev.json
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/RibbonMenu.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/ref/RibbonMenu.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/RibbonMenu.pdb
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Animation.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Base.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Controls.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.DesignerSupport.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.DesktopRuntime.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Diagnostics.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Dialogs.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Input.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Interactivity.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Layout.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Logging.Serilog.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Markup.Xaml.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Markup.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.OpenGL.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Styling.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Themes.Default.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Visuals.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Desktop.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Direct2D1.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.FreeDesktop.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Native.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.ReactiveUI.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Remote.Protocol.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Skia.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.Win32.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Avalonia.X11.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/AvaloniaUI.Ribbon.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Dock.Avalonia.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Dock.Avalonia.Themes.Default.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Dock.Model.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Dock.Model.ReactiveUI.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/DynamicData.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/JetBrains.Annotations.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Microsoft.CodeAnalysis.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Microsoft.CodeAnalysis.CSharp.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Microsoft.CodeAnalysis.VisualBasic.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Microsoft.VisualBasic.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Microsoft.Win32.SystemEvents.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/ReactiveUI.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Serilog.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Serilog.Sinks.Debug.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Serilog.Sinks.Trace.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/SharpDX.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/SharpDX.Direct2D1.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/SharpDX.Direct3D11.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/SharpDX.DXGI.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/SharpGen.Runtime.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/SharpGen.Runtime.COM.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/SkiaSharp.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Splat.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/System.Drawing.Common.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/System.Reactive.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/System.Runtime.InteropServices.WindowsRuntime.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/Tmds.DBus.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/osx/native/libAvaloniaNative.dylib
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/linux-arm/native/libSkiaSharp.so
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/linux-x64/native/libSkiaSharp.so
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/debian-x64/native/libuv.so
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/fedora-x64/native/libuv.so
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/opensuse-x64/native/libuv.so
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/osx/native/libuv.dylib
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/rhel-x64/native/libuv.so
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/win7-arm/native/libuv.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/win7-x64/native/libuv.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/win7-x86/native/libuv.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/osx/native/libSkiaSharp.dylib
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/tizen-armel/native/libSkiaSharp.so
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/tizen-x86/native/libSkiaSharp.so
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/win-x64/native/libSkiaSharp.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/win-x86/native/libSkiaSharp.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/bin/Debug/net5.0/runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/obj/Debug/net5.0/RibbonMenu.csprojAssemblyReference.cache
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/obj/Debug/net5.0/RibbonMenu.GeneratedMSBuildEditorConfig.editorconfig
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/obj/Debug/net5.0/RibbonMenu.AssemblyInfoInputs.cache
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/obj/Debug/net5.0/RibbonMenu.AssemblyInfo.cs
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/obj/Debug/net5.0/RibbonMenu.csproj.CoreCompileInputs.cache
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/obj/Debug/net5.0/RibbonMenu.csproj.CopyComplete
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/obj/Debug/net5.0/RibbonMenu.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/obj/Debug/net5.0/ref/RibbonMenu.dll
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/obj/Debug/net5.0/RibbonMenu.pdb
+/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/obj/Debug/net5.0/RibbonMenu.genruntimeconfig.cache
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\RibbonMenu.exe
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\RibbonMenu.deps.json
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\RibbonMenu.runtimeconfig.json
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\RibbonMenu.runtimeconfig.dev.json
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\RibbonMenu.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\ref\RibbonMenu.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\RibbonMenu.pdb
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Animation.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Base.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Controls.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.DesignerSupport.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.DesktopRuntime.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Dialogs.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Input.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Interactivity.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Layout.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Markup.Xaml.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Markup.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.OpenGL.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Styling.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Themes.Default.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Visuals.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Desktop.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.FreeDesktop.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Native.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.ReactiveUI.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Remote.Protocol.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Skia.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Win32.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.X11.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\AvaloniaUI.Ribbon.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\DynamicData.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\JetBrains.Annotations.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\ReactiveUI.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\SkiaSharp.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Splat.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\System.Drawing.Common.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\System.Reactive.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Tmds.DBus.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\osx\native\libAvaloniaNative.dylib
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\Microsoft.Win32.SystemEvents.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\obj\Debug\net5.0\RibbonMenu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\obj\Debug\net5.0\RibbonMenu.AssemblyInfoInputs.cache
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\obj\Debug\net5.0\RibbonMenu.AssemblyInfo.cs
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\obj\Debug\net5.0\RibbonMenu.csproj.CoreCompileInputs.cache
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\obj\Debug\net5.0\RibbonMenu.csproj.CopyComplete
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\obj\Debug\net5.0\RibbonMenu.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\obj\Debug\net5.0\ref\RibbonMenu.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\obj\Debug\net5.0\RibbonMenu.pdb
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\obj\Debug\net5.0\RibbonMenu.genruntimeconfig.cache
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\obj\Debug\net5.0\RibbonMenu.csprojAssemblyReference.cache
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\SharpGen.Runtime.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\SharpGen.Runtime.COM.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Diagnostics.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Logging.Serilog.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Avalonia.Direct2D1.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Microsoft.VisualBasic.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Serilog.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\Serilog.Sinks.Trace.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\SharpDX.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\SharpDX.Direct2D1.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\SharpDX.Direct3D11.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\SharpDX.DXGI.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\debian-x64\native\libuv.so
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\fedora-x64\native\libuv.so
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\opensuse-x64\native\libuv.so
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\osx\native\libuv.dylib
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\rhel-x64\native\libuv.so
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\win7-arm\native\libuv.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\win7-x64\native\libuv.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\win7-x86\native\libuv.dll
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\tizen-armel\native\libSkiaSharp.so
+C:\Github\Semantic-IDE\Templates\RibbonMenu\RibbonMenu\bin\Debug\net5.0\runtimes\tizen-x86\native\libSkiaSharp.so
