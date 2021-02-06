@@ -11,11 +11,7 @@
           "Avalonia": "0.9.12",
           "Avalonia.Desktop": "0.9.12",
           "Avalonia.ReactiveUI": "0.9.12",
-          "AvaloniaUIRibbon": "1.0.5-beta",
-          "Dock.Avalonia": "0.9.12",
-          "Dock.Avalonia.Themes.Default": "0.9.12",
-          "Dock.Model": "0.9.12",
-          "Dock.Model.ReactiveUI": "0.9.12"
+          "AvaloniaUIRibbon": "1.0.5-beta"
         },
         "runtime": {
           "RibbonMenu.dll": {}
@@ -257,51 +253,6 @@
           "lib/AvaloniaUI.Ribbon.dll": {
             "assemblyVersion": "0.0.0.0",
             "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "Dock.Avalonia/0.9.12": {
-        "dependencies": {
-          "Avalonia": "0.9.12",
-          "Dock.Model": "0.9.12"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Dock.Avalonia.dll": {
-            "assemblyVersion": "0.9.12.0",
-            "fileVersion": "0.9.12.0"
-          }
-        }
-      },
-      "Dock.Avalonia.Themes.Default/0.9.12": {
-        "dependencies": {
-          "Avalonia": "0.9.12",
-          "Dock.Avalonia": "0.9.12",
-          "Dock.Model": "0.9.12"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Dock.Avalonia.Themes.Default.dll": {
-            "assemblyVersion": "0.9.12.0",
-            "fileVersion": "0.9.12.0"
-          }
-        }
-      },
-      "Dock.Model/0.9.12": {
-        "runtime": {
-          "lib/netstandard2.1/Dock.Model.dll": {
-            "assemblyVersion": "0.9.12.0",
-            "fileVersion": "0.9.12.0"
-          }
-        }
-      },
-      "Dock.Model.ReactiveUI/0.9.12": {
-        "dependencies": {
-          "Dock.Model": "0.9.12",
-          "ReactiveUI": "10.3.6"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Dock.Model.ReactiveUI.dll": {
-            "assemblyVersion": "0.9.12.0",
-            "fileVersion": "0.9.12.0"
           }
         }
       },
@@ -2037,34 +1988,6 @@
       "sha512": "sha512-YfDH1sXu8/TVhffNCrGHISxCF4IhHRrWcFW9q9b4i8+hY/O+ue8NeyqrrfHO+cdnTQ5nMSCfg8CDscFSq9MDsQ==",
       "path": "avaloniauiribbon/1.0.5-beta",
       "hashPath": "avaloniauiribbon.1.0.5-beta.nupkg.sha512"
-    },
-    "Dock.Avalonia/0.9.12": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-26tR2QP04TfzCx3T5v6qVzv2NMiOqCsRrY0B2SIbJJomHpthKu94fG1v8BN2ghfwLsW0YlnSKk8ZupTHSekK5A==",
-      "path": "dock.avalonia/0.9.12",
-      "hashPath": "dock.avalonia.0.9.12.nupkg.sha512"
-    },
-    "Dock.Avalonia.Themes.Default/0.9.12": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-whTGRR7ddYzLTtnGTB63KWtMAOdNl5LN8SRgQyHUdpDQ6iaEJ87lP+P3bcqxglQnv1v/53zf0Todk4dQdImlPg==",
-      "path": "dock.avalonia.themes.default/0.9.12",
-      "hashPath": "dock.avalonia.themes.default.0.9.12.nupkg.sha512"
-    },
-    "Dock.Model/0.9.12": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Z8XKZzjpv+wFABVSpYMj1ZYt6ZAnpjbk32vgUa9vyRfLI7DPf6dxGv9zk9yPv5+egJiMUvNVnTqhvvK8L9zIpg==",
-      "path": "dock.model/0.9.12",
-      "hashPath": "dock.model.0.9.12.nupkg.sha512"
-    },
-    "Dock.Model.ReactiveUI/0.9.12": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Rg1mSW+zfP4Vf/NucSASY4vXq51x0uhVNZ1X86P85TWm2ZJSVkGJka00sgP2ajLVKu1o46LpX/FYFEjBp4MiqQ==",
-      "path": "dock.model.reactiveui/0.9.12",
-      "hashPath": "dock.model.reactiveui.0.9.12.nupkg.sha512"
     },
     "DynamicData/6.13.9": {
       "type": "package",

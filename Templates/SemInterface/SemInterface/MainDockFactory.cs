@@ -28,49 +28,49 @@ namespace SemInterface
             var welcome = new WelcomeViewModel
             {
                 Id = "Welcome",
-                Title = "Welcome"
+                Title = "Стартовая страница"
             };
             
             // - Панель "Проект"
             var project = new ProjectViewModel
             {
                 Id = "Project",
-                Title = "Project"
+                Title = "Проект"
             };
             
             // - Панель "Задачник"
             var taskbook = new TaskbookViewModel
             {
                 Id = "Taskbook",
-                Title = "Taskbook"
+                Title = "Задачник"
             };
 
             // - Панель "Документация"
             var help = new HelpViewModel
             {
                 Id = "Help",
-                Title = "Help"
+                Title = "Документация"
             };
 
             // - Панель "Ошибки"
             var errors = new ErrorsViewModel
             {
                 Id = "Errors",
-                Title = "Errors"
+                Title = "Ошибки"
             };
 
             // - Панель "Журнал команд"
             var commandLog = new CommandLogViewModel
             {
                 Id = "CommandLog",
-                Title = "CommandLog"
+                Title = "Журнал команд"
             };
 
             // - Панель "Консоль"
             var console = new ConsoleViewModel
             {
                 Id = "Console",
-                Title = "Console"
+                Title = "Консоль"
             };
 
             // - Делим layout на две части: нижнюю и верхнюю

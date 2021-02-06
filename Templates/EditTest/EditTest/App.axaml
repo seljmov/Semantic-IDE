@@ -5,7 +5,7 @@
              x:Class="EditTest.App">
 
   <Application.Styles>
-    <FluentTheme Mode="Dark" />
+    <FluentTheme Mode="Light" />
     <StyleInclude Source="avares://AvaloniaEdit/AvaloniaEdit.xaml" />
   </Application.Styles>
 </Application>

@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/home/seljmov/.dotnet/store/|arch|/|tfm|",
-      "/home/seljmov/.nuget/packages"
+      "C:\\Users\\seljmov\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\seljmov\\.nuget\\packages"
     ]
   }
 }

@@ -5,13 +5,16 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        xmlns:controls="clr-namespace:SemInterface.Views.Controls"
         x:Class="SemInterface.Views.MainWindow"
-        Icon="/Assets/avalonia-logo.ico"
+        Icon="/Assets/semantic-logo.ico"
         Title="SemInterface" Padding="2">
 
     <Design.DataContext>
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <dock:DockControl Layout="{Binding Layout}" />
+  <Grid RowDefinitions="Auto,*,Auto">
+    <dock:DockControl Grid.Row="1" Layout="{Binding Layout}" />
+  </Grid>
 </Window>

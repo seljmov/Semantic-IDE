@@ -201,3 +201,4 @@ C:\Github\Semantic-IDE\Templates\EditTest\EditTest\bin\Debug\net5.0\Avalonia.Mic
 C:\Github\Semantic-IDE\Templates\EditTest\EditTest\bin\Debug\net5.0\runtimes\win-arm64\native\av_libglesv2.dll
 C:\Github\Semantic-IDE\Templates\EditTest\EditTest\bin\Debug\net5.0\runtimes\win7-x64\native\av_libglesv2.dll
 C:\Github\Semantic-IDE\Templates\EditTest\EditTest\bin\Debug\net5.0\runtimes\win7-x86\native\av_libglesv2.dll
+C:\Github\Semantic-IDE\Templates\EditTest\EditTest\obj\Debug\net5.0\EditTest.csprojAssemblyReference.cache

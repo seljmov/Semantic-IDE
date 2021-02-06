@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/RibbonMenu.csproj": {}
+    "C:\\Github\\Semantic-IDE\\Templates\\RibbonMenu\\RibbonMenu\\RibbonMenu.csproj": {}
   },
   "projects": {
-    "/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/RibbonMenu.csproj": {
+    "C:\\Github\\Semantic-IDE\\Templates\\RibbonMenu\\RibbonMenu\\RibbonMenu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/RibbonMenu.csproj",
+        "projectUniqueName": "C:\\Github\\Semantic-IDE\\Templates\\RibbonMenu\\RibbonMenu\\RibbonMenu.csproj",
         "projectName": "RibbonMenu",
-        "projectPath": "/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/RibbonMenu.csproj",
-        "packagesPath": "/home/seljmov/.nuget/packages/",
-        "outputPath": "/home/seljmov/Semantic Technology/Semantic-IDE/Templates/RibbonMenu/RibbonMenu/obj/",
+        "projectPath": "C:\\Github\\Semantic-IDE\\Templates\\RibbonMenu\\RibbonMenu\\RibbonMenu.csproj",
+        "packagesPath": "C:\\Users\\seljmov\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\Semantic-IDE\\Templates\\RibbonMenu\\RibbonMenu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/seljmov/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\seljmov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,22 +55,6 @@
             "AvaloniaUIRibbon": {
               "target": "Package",
               "version": "[1.0.5-beta, )"
-            },
-            "Dock.Avalonia": {
-              "target": "Package",
-              "version": "[0.9.12, )"
-            },
-            "Dock.Avalonia.Themes.Default": {
-              "target": "Package",
-              "version": "[0.9.12, )"
-            },
-            "Dock.Model": {
-              "target": "Package",
-              "version": "[0.9.12, )"
-            },
-            "Dock.Model.ReactiveUI": {
-              "target": "Package",
-              "version": "[0.9.12, )"
             }
           },
           "imports": [
@@ -86,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/seljmov/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
