@@ -36,6 +36,39 @@
     <ControlTemplate x:Key="Redo">
       <Image Source="/Assets/Icons/Redo.png" />
     </ControlTemplate>
+    <ControlTemplate x:Key="Project">
+      <Image Source="/Assets/Icons/Project.png" />
+    </ControlTemplate>
+    <ControlTemplate x:Key="Taskbook">
+      <Image Source="/Assets/Icons/Taskbook.png" />
+    </ControlTemplate>
+    <ControlTemplate x:Key="Help">
+      <Image Source="/Assets/Icons/Help.png" />
+    </ControlTemplate>
+    <ControlTemplate x:Key="ErrorsList">
+      <Image Source="/Assets/Icons/Errors.png" />
+    </ControlTemplate>
+    <ControlTemplate x:Key="Console">
+      <Image Source="/Assets/Icons/Console.png" />
+    </ControlTemplate>
+    <ControlTemplate x:Key="CommandLog">
+      <Image Source="/Assets/Icons/Log.png" />
+    </ControlTemplate>
+    <ControlTemplate x:Key="CloseDocs">
+      <Image Source="/Assets/Icons/CloseDocs.png" />
+    </ControlTemplate>
+    <ControlTemplate x:Key="PanelsHide">
+      <Image Source="/Assets/Icons/PanelsHide.png" />
+    </ControlTemplate>
+    <ControlTemplate x:Key="PanelsShow">
+      <Image Source="/Assets/Icons/PanelsShow.png" />
+    </ControlTemplate>
+    <ControlTemplate x:Key="PanelsSetDefaultPosition">
+      <Image Source="/Assets/Icons/PanelsSetDefaultPosition.png" />
+    </ControlTemplate>
+    <ControlTemplate x:Key="PanelsGetDefaultPosition">
+      <Image Source="/Assets/Icons/PanelsGetDefaultPosition.png" />
+    </ControlTemplate>
   </ribbon:RibbonWindow.Resources>
   
   <ribbon:RibbonWindow.Styles>
@@ -50,6 +83,12 @@
     </Style>
     <Style Selector="ComboBox.FixedBoxWidth">
       <Setter Property="Width" Value="150" />
+    </Style>
+    <Style Selector="ComboBox.FixedMediumBoxWidth">
+      <Setter Property="Width" Value="130" />
+    </Style>
+    <Style Selector="Grid.ColumnRightMargin">
+      <Setter Property="Margin" Value="0,0,8,0" />
     </Style>
   </ribbon:RibbonWindow.Styles>
   
@@ -183,265 +222,232 @@
               </Grid>
             </StackPanel>
           </ribbon:RibbonGroupBox>
+          <ribbon:RibbonGroupBox Header="Интерпретатор">
+            <Grid RowDefinitions="25" ColumnDefinitions="115,Auto">
+              <TextBlock Grid.Column="0" Text="Режим копирования" Classes="FixedFontSize BoxMargin" />
+              <ComboBox  Grid.Column="1" SelectedIndex="1" Classes="FixedBoxItemSize FixedMediumBoxWidth">
+                <ComboBoxItem>Глубокий</ComboBoxItem>
+                <ComboBoxItem>Поверхностный</ComboBoxItem>
+              </ComboBox>
+            </Grid>
+            <CheckBox>
+              <CheckBox.Content>
+                <TextBlock Text="Открывать файлы после выполнения"  Classes="FixedFontSize" />
+              </CheckBox.Content>
+            </CheckBox>
+          </ribbon:RibbonGroupBox>
+          <ribbon:RibbonGroupBox Header="Редактор">
+            <Grid RowDefinitions="Auto" ColumnDefinitions="Auto,Auto">
+              <Grid Grid.Column="0" RowDefinitions="24,24,24" ColumnDefinitions="90,*" Classes="ColumnRightMargin">
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Шрифт" Classes="FixedFontSize BoxMargin"/>
+                <ComboBox  Grid.Row="0" Grid.Column="1" SelectedIndex="2" Classes="FixedBoxItemSize FixedMediumBoxWidth">
+                  <ComboBoxItem FontFamily="Arial">Arial</ComboBoxItem>
+                  <ComboBoxItem FontFamily="Calibri">Calibri</ComboBoxItem>
+                  <ComboBoxItem FontFamily="Consolas">Consolas</ComboBoxItem>
+                  <ComboBoxItem FontFamily="Courier New">Courier New</ComboBoxItem>
+                  <ComboBoxItem FontFamily="Georgia">Georgia</ComboBoxItem>
+                  <ComboBoxItem FontFamily="Lucida Sans Unicode">Lucida Sans Unicode</ComboBoxItem>
+                  <ComboBoxItem FontFamily="Segou UI">Segou UI</ComboBoxItem>
+                  <ComboBoxItem FontFamily="Times New Roman">Times New Roman</ComboBoxItem>
+                  <ComboBoxItem FontFamily="Trebuchet MS">Trebuchet MS</ComboBoxItem>
+                  <ComboBoxItem FontFamily="Verdana">Verdana</ComboBoxItem>
+                </ComboBox>
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Размер шрифта" Classes="FixedFontSize BoxMargin"/>
+                <ComboBox  Grid.Row="1" Grid.Column="1" SelectedIndex="3" Classes="FixedBoxItemSize FixedMediumBoxWidth">
+                  <ComboBoxItem FontSize="8">8</ComboBoxItem>
+                  <ComboBoxItem FontSize="9">9</ComboBoxItem>
+                  <ComboBoxItem FontSize="10">10</ComboBoxItem>
+                  <ComboBoxItem FontSize="11">11</ComboBoxItem>
+                  <ComboBoxItem FontSize="12">12</ComboBoxItem>
+                  <ComboBoxItem FontSize="13">13</ComboBoxItem>
+                  <ComboBoxItem FontSize="14">14</ComboBoxItem>
+                  <ComboBoxItem FontSize="15">15</ComboBoxItem>
+                  <ComboBoxItem FontSize="16">16</ComboBoxItem>
+                </ComboBox>
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="Навигация" Classes="FixedFontSize BoxMargin"/>
+                <ComboBox  Grid.Row="2" Grid.Column="1" SelectedIndex="1" Classes="FixedBoxItemSize FixedMediumBoxWidth">
+                  <ComboBoxItem>Семантическая</ComboBoxItem>
+                  <ComboBoxItem>Текстовая</ComboBoxItem>
+                </ComboBox>
+              </Grid>
+              <Grid Grid.Column="1" RowDefinitions="24,24,24" ColumnDefinitions="Auto">
+                <CheckBox Grid.Row="0" IsChecked="True">
+                  <CheckBox.Content>
+                    <TextBlock Text="Показывать 'псевдослова'" Classes="FixedFontSize" />
+                  </CheckBox.Content>
+                  <ToolTip.Tip>
+                    <TextBlock Text="Определяет, нужно ли подсвечивать слова, которые отсутствуют в оригинальном синтаксисе языка" />
+                  </ToolTip.Tip>
+                </CheckBox>
+                <CheckBox Grid.Row="1" IsChecked="True">
+                  <CheckBox.Content>
+                    <TextBlock Text="Подсвечивать синтаксис" Classes="FixedFontSize" />
+                  </CheckBox.Content>
+                  <ToolTip.Tip>
+                    <TextBlock Text="Определяет, нужно ли подсвечивать синтаксис языка" />
+                  </ToolTip.Tip>
+                </CheckBox>
+                <CheckBox Grid.Row="2" IsChecked="True">
+                  <CheckBox.Content>
+                    <TextBlock Text="Переносить параметры" Classes="FixedFontSize" />
+                  </CheckBox.Content>
+                  <ToolTip.Tip>
+                    <TextBlock Text="Определяет, нужно ли переносить параметры на следующую строку, если они не умещаются на экране" />
+                  </ToolTip.Tip>
+                </CheckBox>
+              </Grid>
+            </Grid>
+          </ribbon:RibbonGroupBox>
+          <ribbon:RibbonGroupBox Header="Интерфейс">
+            <Grid RowDefinitions="Auto" ColumnDefinitions="Auto,Auto">
+              <Grid RowDefinitions="24,24,24" ColumnDefinitions="90,*" Classes="ColumnRightMargin">
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Шрифт" Classes="FixedFontSize BoxMargin"/>
+                <ComboBox  Grid.Row="0" Grid.Column="1" SelectedIndex="0" Classes="FixedBoxItemSize FixedMediumBoxWidth">
+                  <ComboBoxItem FontFamily="Consolas">Consolas</ComboBoxItem>
+                  <ComboBoxItem FontFamily="Courier New">Courier New</ComboBoxItem>
+                </ComboBox>
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Размер шрифта" Classes="FixedFontSize BoxMargin"/>
+                <ComboBox  Grid.Row="1" Grid.Column="1" SelectedIndex="3" Classes="FixedBoxItemSize FixedMediumBoxWidth">
+                  <ComboBoxItem FontSize="8">8</ComboBoxItem>
+                  <ComboBoxItem FontSize="9">9</ComboBoxItem>
+                  <ComboBoxItem FontSize="10">10</ComboBoxItem>
+                  <ComboBoxItem FontSize="11">11</ComboBoxItem>
+                  <ComboBoxItem FontSize="12">12</ComboBoxItem>
+                  <ComboBoxItem FontSize="13">13</ComboBoxItem>
+                  <ComboBoxItem FontSize="14">14</ComboBoxItem>
+                  <ComboBoxItem FontSize="15">15</ComboBoxItem>
+                  <ComboBoxItem FontSize="16">16</ComboBoxItem>
+                </ComboBox>
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="Тема" Classes="FixedFontSize BoxMargin"/>
+                <ComboBox  Grid.Row="2" Grid.Column="1" SelectedIndex="0" Classes="FixedBoxItemSize FixedMediumBoxWidth">
+                  <ComboBoxItem>Светлая</ComboBoxItem>
+                  <ComboBoxItem>Темная</ComboBoxItem>
+                  <ComboBoxItem>Синяя</ComboBoxItem>
+                </ComboBox>
+              </Grid>
+              <Grid Grid.Column="1" RowDefinitions="24,Auto" ColumnDefinitions="Auto">
+                <CheckBox Grid.Row="0" IsChecked="True">
+                  <CheckBox.Content>
+                    <TextBlock Text="Показывать подсказки" Classes="FixedFontSize" />
+                  </CheckBox.Content>
+                  <ToolTip.Tip>
+                    <TextBlock Text="Определяет, нужно ли показывать подсказки внизу окна редактора" />
+                  </ToolTip.Tip>
+                </CheckBox>
+              </Grid>
+            </Grid>
+          </ribbon:RibbonGroupBox>
+        </ribbon:RibbonTab.Groups>
+      </ribbon:RibbonTab>
+
+      <ribbon:RibbonTab Header="Вид">
+        <ribbon:RibbonTab.Groups>
+          <ribbon:RibbonGroupBox Header="Обозреватели">
+            <Grid RowDefinitions="Auto" ColumnDefinitions="Auto,Auto">
+              <StackPanel Grid.Column="0" HorizontalAlignment="Center">
+                <ribbon:RibbonButton Icon="{DynamicResource Project}" MaxSize="Medium">
+                  <ribbon:RibbonButton.Content>
+                    <TextBlock Text="Проект" Classes="FixedFontSize" />
+                  </ribbon:RibbonButton.Content>
+                  <ToolTip.Tip>
+                    <TextBlock Text="Показать/скрыть структуру проекта" />
+                  </ToolTip.Tip>
+                </ribbon:RibbonButton>
+                <ribbon:RibbonButton Icon="{DynamicResource Taskbook}" MaxSize="Medium">
+                  <ribbon:RibbonButton.Content>
+                    <TextBlock Text="Задачник" Classes="FixedFontSize" />
+                  </ribbon:RibbonButton.Content>
+                  <ToolTip.Tip>
+                    <TextBlock Text="Показать/скрыть задачник" />
+                  </ToolTip.Tip>
+                </ribbon:RibbonButton>
+                <ribbon:RibbonButton Icon="{DynamicResource Help}" MaxSize="Medium">
+                  <ribbon:RibbonButton.Content>
+                    <TextBlock Text="Документация" Classes="FixedFontSize" />
+                  </ribbon:RibbonButton.Content>
+                  <ToolTip.Tip>
+                    <TextBlock Text="Показать/скрыть документацию" />
+                  </ToolTip.Tip>
+                </ribbon:RibbonButton>
+              </StackPanel>
+              <StackPanel Grid.Column="1" HorizontalAlignment="Center">
+                <ribbon:RibbonButton Icon="{DynamicResource ErrorsList}" MaxSize="Medium">
+                  <ribbon:RibbonButton.Content>
+                    <TextBlock Text="Ошибки" Classes="FixedFontSize" />
+                  </ribbon:RibbonButton.Content>
+                  <ToolTip.Tip>
+                    <TextBlock Text="Показать/скрыть список ошибок" />
+                  </ToolTip.Tip>
+                </ribbon:RibbonButton>
+                <ribbon:RibbonButton Icon="{DynamicResource Console}" MaxSize="Medium">
+                  <ribbon:RibbonButton.Content>
+                    <TextBlock Text="Консоль" Classes="FixedFontSize" />
+                  </ribbon:RibbonButton.Content>
+                  <ToolTip.Tip>
+                    <TextBlock Text="Показать/скрыть консоль" />
+                  </ToolTip.Tip>
+                </ribbon:RibbonButton>
+                <ribbon:RibbonButton Icon="{DynamicResource CommandLog}" MaxSize="Medium">
+                  <ribbon:RibbonButton.Content>
+                    <TextBlock Text="Журнал команд" Classes="FixedFontSize" />
+                  </ribbon:RibbonButton.Content>
+                  <ToolTip.Tip>
+                    <TextBlock Text="Показать/скрыть журнал команд" />
+                  </ToolTip.Tip>
+                </ribbon:RibbonButton>
+              </StackPanel>
+            </Grid>
+          </ribbon:RibbonGroupBox>
+          <ribbon:RibbonGroupBox Header="Окна">
+            <StackPanel Grid.Column="0" HorizontalAlignment="Center">
+              <ribbon:RibbonButton Icon="{DynamicResource CloseDocs}" MaxSize="Medium">
+                <ribbon:RibbonButton.Content>
+                  <TextBlock Text="Закрыть все документы" Classes="FixedFontSize" />
+                </ribbon:RibbonButton.Content>
+                <ToolTip.Tip>
+                  <TextBlock Text="Закрыть все документы (Ctrl+Alt+E)" />
+                </ToolTip.Tip>
+              </ribbon:RibbonButton>
+              <ribbon:RibbonButton Icon="{DynamicResource PanelsHide}" MaxSize="Medium">
+                <ribbon:RibbonButton.Content>
+                  <TextBlock Text="Скрыть панели инструментов" Classes="FixedFontSize" />
+                </ribbon:RibbonButton.Content>
+                <ToolTip.Tip>
+                  <TextBlock Text="Скрыть панель инструментов (Ctrl+Alt+R)" />
+                </ToolTip.Tip>
+              </ribbon:RibbonButton>
+              <ribbon:RibbonButton Icon="{DynamicResource PanelsShow}" MaxSize="Medium">
+                <ribbon:RibbonButton.Content>
+                  <TextBlock Text="Показать панели инструментов" Classes="FixedFontSize" />
+                </ribbon:RibbonButton.Content>
+                <ToolTip.Tip>
+                  <TextBlock Text="Показать панели инструментов (Ctrl+Alt+T)" />
+                </ToolTip.Tip>
+              </ribbon:RibbonButton>
+            </StackPanel>
+          </ribbon:RibbonGroupBox>
+          <ribbon:RibbonGroupBox>
+            <StackPanel Grid.Column="1" HorizontalAlignment="Center">
+              <ribbon:RibbonButton Icon="{DynamicResource PanelsGetDefaultPosition}" MaxSize="Medium">
+                <ribbon:RibbonButton.Content>
+                  <TextBlock Text="Вернуть расположение по умолчанию" Classes="FixedFontSize" />
+                </ribbon:RibbonButton.Content>
+                <ToolTip.Tip>
+                  <TextBlock Text="Вернуть расположение обозревателей, которое сохранено как по умолчанию" />
+                </ToolTip.Tip>
+              </ribbon:RibbonButton>
+              <ribbon:RibbonButton Icon="{DynamicResource PanelsSetDefaultPosition}" MaxSize="Medium">
+                <ribbon:RibbonButton.Content>
+                  <TextBlock Text="Сохранить как расположение по умолчанию" Classes="FixedFontSize" />
+                </ribbon:RibbonButton.Content>
+                <ToolTip.Tip>
+                  <TextBlock Text="Сохранить текущее расположение обозревателей как расположение по умолчанию" />
+                </ToolTip.Tip>
+              </ribbon:RibbonButton>
+            </StackPanel>
+          </ribbon:RibbonGroupBox>
         </ribbon:RibbonTab.Groups>
       </ribbon:RibbonTab>
     </ribbon:Ribbon.Tabs>
   </ribbon:Ribbon>
-
-  <!--
-  <ribbon:Ribbon>
-    <ribbon:RibbonTab Header="Настройки">
-      <ribbon:RibbonTab.Groups>
-        <ribbon:RibbonGroupBox Header="Язык">
-          <Grid RowDefinitions="24,24,24" ColumnDefinitions="110,140">
-            <TextBlock Grid.Row="0" Grid.Column="0" Text="Язык интерфейса" Classes="DefaultSize"/>
-            <ComboBox  Grid.Row="0" Grid.Column="1" SelectedIndex="0" Classes="DefaultSize">
-              <ComboBoxItem>Русский</ComboBoxItem>
-              <ComboBoxItem>English</ComboBoxItem>
-            </ComboBox>
-            <TextBlock Grid.Row="1" Grid.Column="0" Text="Язык лексем" Classes="DefaultSize"/>
-            <ComboBox  Grid.Row="1" Grid.Column="1" SelectedIndex="0" Classes="DefaultSize">
-              <ComboBoxItem>Русский</ComboBoxItem>
-              <ComboBoxItem>English</ComboBoxItem>
-            </ComboBox>
-            <TextBlock Grid.Row="2" Grid.Column="0" Text="Синтаксис языка" Classes="DefaultSize"/>
-            <ComboBox  Grid.Row="2" Grid.Column="1" SelectedIndex="4" Classes="DefaultSize">
-              <ComboBoxItem>Basic</ComboBoxItem>
-              <ComboBoxItem>C++</ComboBoxItem>
-              <ComboBoxItem>Pascal</ComboBoxItem>
-              <ComboBoxItem>Python</ComboBoxItem>
-              <ComboBoxItem>Semantic Language</ComboBoxItem>
-            </ComboBox>
-          </Grid>
-        </ribbon:RibbonGroupBox>
-        <ribbon:RibbonGroupBox Header="Интерпретатор">
-          <Grid RowDefinitions="24" ColumnDefinitions="125,134">
-            <TextBlock Grid.Row="0" Grid.Column="0" Text="Режим копирования" Classes="DefaultSize"/>
-            <ComboBox  Grid.Row="0" Grid.Column="1" SelectedIndex="0" Classes="DefaultSize">
-              <ComboBoxItem>Глубокий</ComboBoxItem>
-              <ComboBoxItem>Поверхностный</ComboBoxItem>
-            </ComboBox>
-          </Grid>
-          <CheckBox Classes="DefaultSize">
-            <CheckBox.Content>
-              <TextBlock Text="Открывать файлы после выполнения" />
-            </CheckBox.Content>
-          </CheckBox>
-        </ribbon:RibbonGroupBox>
-        <ribbon:RibbonGroupBox Header="Темы">
-          <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="Auto">
-            <ribbon:RibbonButton Grid.Row="0" Grid.Column="0" MaxSize="Medium" Classes="DefaultSize">
-              <ribbon:RibbonButton.Content>
-                <TextBlock Text="Светлая" />
-              </ribbon:RibbonButton.Content>
-            </ribbon:RibbonButton>
-            <ribbon:RibbonButton Grid.Row="1" Grid.Column="0" MaxSize="Medium" Classes="DefaultSize">
-              <ribbon:RibbonButton.Content>
-                <TextBlock Text="Темная" />
-              </ribbon:RibbonButton.Content>
-            </ribbon:RibbonButton>
-            <ribbon:RibbonButton Grid.Row="2" Grid.Column="0" MaxSize="Medium" Classes="DefaultSize">
-              <ribbon:RibbonButton.Content>
-                <TextBlock Text="Синия" />
-              </ribbon:RibbonButton.Content>
-            </ribbon:RibbonButton>
-          </Grid>
-        </ribbon:RibbonGroupBox>
-        <ribbon:RibbonGroupBox Header="Редактор">
-          <Grid RowDefinitions="Auto" ColumnDefinitions="Auto,Auto">
-            <Grid Grid.Column="0" RowDefinitions="24,24,24" ColumnDefinitions="100,125" Margin="0,0,8,0">
-              <TextBlock Grid.Row="0" Grid.Column="0" Text="Шрифт" Classes="DefaultSize"/>
-              <ComboBox  Grid.Row="0" Grid.Column="1" SelectedIndex="2" Classes="DefaultSize">
-                <ComboBoxItem FontFamily="Arial">Arial</ComboBoxItem>
-                <ComboBoxItem FontFamily="Calibri">Calibri</ComboBoxItem>
-                <ComboBoxItem FontFamily="Consolas">Consolas</ComboBoxItem>
-                <ComboBoxItem FontFamily="Courier New">Courier New</ComboBoxItem>
-                <ComboBoxItem FontFamily="Georgia">Georgia</ComboBoxItem>
-                <ComboBoxItem FontFamily="Lucida Sans Unicode">Lucida Sans Unicode</ComboBoxItem>
-                <ComboBoxItem FontFamily="Segou UI">Segou UI</ComboBoxItem>
-                <ComboBoxItem FontFamily="Times New Roman">Times New Roman</ComboBoxItem>
-                <ComboBoxItem FontFamily="Trebuchet MS">Trebuchet MS</ComboBoxItem>
-                <ComboBoxItem FontFamily="Verdana">Verdana</ComboBoxItem>
-              </ComboBox>
-              <TextBlock Grid.Row="1" Grid.Column="0" Text="Размер шрифта" Classes="DefaultSize"/>
-              <ComboBox  Grid.Row="1" Grid.Column="1" SelectedIndex="3" Classes="DefaultSize">
-                <ComboBoxItem FontSize="8">8</ComboBoxItem>
-                <ComboBoxItem FontSize="9">9</ComboBoxItem>
-                <ComboBoxItem FontSize="10">10</ComboBoxItem>
-                <ComboBoxItem FontSize="11">11</ComboBoxItem>
-                <ComboBoxItem FontSize="12">12</ComboBoxItem>
-                <ComboBoxItem FontSize="13">13</ComboBoxItem>
-                <ComboBoxItem FontSize="14">14</ComboBoxItem>
-                <ComboBoxItem FontSize="15">15</ComboBoxItem>
-                <ComboBoxItem FontSize="16">16</ComboBoxItem>
-              </ComboBox>
-              <TextBlock Grid.Row="2" Grid.Column="0" Text="Навигация" Classes="DefaultSize"/>
-              <ComboBox  Grid.Row="2" Grid.Column="1" SelectedIndex="1" Classes="DefaultSize">
-                <ComboBoxItem>Семантическая</ComboBoxItem>
-                <ComboBoxItem>Текстовая</ComboBoxItem>
-              </ComboBox>
-            </Grid>
-            <Grid Grid.Column="1" RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="Auto">
-              <CheckBox Grid.Row="0" IsChecked="True" Classes="DefaultSize" Margin="0,4,0,0">
-                <CheckBox.Content>
-                  <TextBlock Text="Показывать 'псевдослова'" />
-                </CheckBox.Content>
-                <ToolTip.Tip>
-                  <TextBlock Text="Определяет, нужно ли подсвечивать слова, которые отсутствуют в оригинальном синтаксисе языка" />
-                </ToolTip.Tip>
-              </CheckBox>
-              <CheckBox Grid.Row="1" IsChecked="True" Classes="DefaultSize" Margin="0,4,0,0">
-                <CheckBox.Content>
-                  <TextBlock Text="Подсвечивать синтаксис" />
-                </CheckBox.Content>
-                <ToolTip.Tip>
-                  <TextBlock Text="Определяет, нужно ли подсвечивать синтаксис языка" />
-                </ToolTip.Tip>
-              </CheckBox>
-              <CheckBox Grid.Row="2" IsChecked="True" Classes="DefaultSize" Margin="0,4,0,0">
-                <CheckBox.Content>
-                  <TextBlock Text="Переносить параметры" />
-                </CheckBox.Content>
-                <ToolTip.Tip>
-                  <TextBlock Text="Определяет, нужно ли переносить параметры на следующую строку, если они не умещаются на экране" />
-                </ToolTip.Tip>
-              </CheckBox>
-            </Grid>
-          </Grid>
-        </ribbon:RibbonGroupBox>
-        <ribbon:RibbonGroupBox Header="Интерфейс">
-          <Grid RowDefinitions="24,24" ColumnDefinitions="100,125">
-            <TextBlock Grid.Row="0" Grid.Column="0" Text="Шрифт" Classes="DefaultSize"/>
-            <ComboBox  Grid.Row="0" Grid.Column="1" SelectedIndex="0" Classes="DefaultSize">
-              <ComboBoxItem FontFamily="Consolas">Consolas</ComboBoxItem>
-              <ComboBoxItem FontFamily="Courier New">Courier New</ComboBoxItem>
-            </ComboBox>
-            <TextBlock Grid.Row="1" Grid.Column="0" Text="Размер шрифта" Classes="DefaultSize"/>
-            <ComboBox  Grid.Row="1" Grid.Column="1" SelectedIndex="3" Classes="DefaultSize">
-              <ComboBoxItem FontSize="8">8</ComboBoxItem>
-              <ComboBoxItem FontSize="9">9</ComboBoxItem>
-              <ComboBoxItem FontSize="10">10</ComboBoxItem>
-              <ComboBoxItem FontSize="11">11</ComboBoxItem>
-              <ComboBoxItem FontSize="12">12</ComboBoxItem>
-              <ComboBoxItem FontSize="13">13</ComboBoxItem>
-              <ComboBoxItem FontSize="14">14</ComboBoxItem>
-              <ComboBoxItem FontSize="15">15</ComboBoxItem>
-              <ComboBoxItem FontSize="16">16</ComboBoxItem>
-            </ComboBox>
-          </Grid>
-          <CheckBox IsChecked="True" Classes="DefaultSize">
-            <CheckBox.Content>
-              <TextBlock Text="Показывать подсказки" />
-            </CheckBox.Content>
-            <ToolTip.Tip>
-              <TextBlock Text="Определяет, нужно ли показывать подсказки внизу окна редактора" />
-            </ToolTip.Tip>
-          </CheckBox>
-        </ribbon:RibbonGroupBox>
-      </ribbon:RibbonTab.Groups>
-    </ribbon:RibbonTab>
-
-    
-    <ribbon:RibbonTab Header="Вид">
-      <ribbon:RibbonTab.Groups>
-        <ribbon:RibbonGroupBox Header="Обозреватели">
-          <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="Auto,Auto" Margin="0,2,0,2">
-            <ribbon:RibbonButton Grid.Row="0" Grid.Column="0" MaxSize="Medium">
-              <ribbon:RibbonButton.Content>
-                <TextBlock Text="Проект" />
-              </ribbon:RibbonButton.Content>
-              <ToolTip.Tip>
-                <TextBlock Text="Показать/скрыть структуру проекта" />
-              </ToolTip.Tip>
-            </ribbon:RibbonButton>
-            <ribbon:RibbonButton Grid.Row="1" Grid.Column="0" MaxSize="Medium">
-              <ribbon:RibbonButton.Content>
-                <TextBlock Text="Задачник" />
-              </ribbon:RibbonButton.Content>
-              <ToolTip.Tip>
-                <TextBlock Text="Показать/скрыть задачник" />
-              </ToolTip.Tip>
-            </ribbon:RibbonButton>
-            <ribbon:RibbonButton Grid.Row="2" Grid.Column="0" MaxSize="Medium">
-              <ribbon:RibbonButton.Content>
-                <TextBlock Text="Документация" />
-              </ribbon:RibbonButton.Content>
-              <ToolTip.Tip>
-                <TextBlock Text="Показать/скрыть документацию" />
-              </ToolTip.Tip>
-            </ribbon:RibbonButton>
-            <ribbon:RibbonButton Grid.Row="0" Grid.Column="1" MaxSize="Medium">
-              <ribbon:RibbonButton.Content>
-                <TextBlock Text="Ошибки" />
-              </ribbon:RibbonButton.Content>
-              <ToolTip.Tip>
-                <TextBlock Text="Показать/скрыть список ошибок" />
-              </ToolTip.Tip>
-            </ribbon:RibbonButton>
-            <ribbon:RibbonButton Grid.Row="1" Grid.Column="1" MaxSize="Medium">
-              <ribbon:RibbonButton.Content>
-                <TextBlock Text="Консоль" />
-              </ribbon:RibbonButton.Content>
-              <ToolTip.Tip>
-                <TextBlock Text="Показать/скрыть консоль" />
-              </ToolTip.Tip>
-            </ribbon:RibbonButton>
-            <ribbon:RibbonButton Grid.Row="2" Grid.Column="1" MaxSize="Medium">
-              <ribbon:RibbonButton.Content>
-                <TextBlock Text="Журнал команд" />
-              </ribbon:RibbonButton.Content>
-              <ToolTip.Tip>
-                <TextBlock Text="Показать/скрыть журнал команд" />
-              </ToolTip.Tip>
-            </ribbon:RibbonButton>
-          </Grid>
-        </ribbon:RibbonGroupBox>
-        <ribbon:RibbonGroupBox Header="Окна">
-          <Grid RowDefinitions="Auto,Auto,Auto" ColumnDefinitions="Auto,Auto" Margin="0,2,0,2">
-            <ribbon:RibbonButton Grid.Row="0" Grid.Column="0" MaxSize="Medium">
-              <ribbon:RibbonButton.Content>
-                <TextBlock Text="Закрыть все документы" />
-              </ribbon:RibbonButton.Content>
-              <ToolTip.Tip>
-                <TextBlock Text="Закрыть все документы (Ctrl+Alt+E)" />
-              </ToolTip.Tip>
-            </ribbon:RibbonButton>
-            <ribbon:RibbonButton Grid.Row="1" Grid.Column="0" MaxSize="Medium">
-              <ribbon:RibbonButton.Content>
-                <TextBlock Text="Скрыть панели инструментов" />
-              </ribbon:RibbonButton.Content>
-              <ToolTip.Tip>
-                <TextBlock Text="Скрыть панель инструментов (Ctrl+Alt+R)" />
-              </ToolTip.Tip>
-            </ribbon:RibbonButton>
-            <ribbon:RibbonButton Grid.Row="2" Grid.Column="0" MaxSize="Medium">
-              <ribbon:RibbonButton.Content>
-                <TextBlock Text="Показать панели инструментов" />
-              </ribbon:RibbonButton.Content>
-              <ToolTip.Tip>
-                <TextBlock Text="Показать панели инструментов (Ctrl+Alt+T)" />
-              </ToolTip.Tip>
-            </ribbon:RibbonButton>
-            <ribbon:RibbonButton Grid.Row="0" Grid.Column="1" MaxSize="Medium">
-              <ribbon:RibbonButton.Content>
-                <TextBlock Text="Вернуть расположение по умолчанию" />
-              </ribbon:RibbonButton.Content>
-              <ToolTip.Tip>
-                <TextBlock Text="Вернуть расположение обозревателей, которое сохранено как по умолчанию" />
-              </ToolTip.Tip>
-            </ribbon:RibbonButton>
-            <ribbon:RibbonButton Grid.Row="1" Grid.Column="1" MaxSize="Medium">
-              <ribbon:RibbonButton.Content>
-                <TextBlock Text="Сохранить как расположение по умолчанию" />
-              </ribbon:RibbonButton.Content>
-              <ToolTip.Tip>
-                <TextBlock Text="Сохранить текущее расположение обозревателей как расположение по умолчанию" />
-              </ToolTip.Tip>
-            </ribbon:RibbonButton>
-          </Grid>
-        </ribbon:RibbonGroupBox>
-      </ribbon:RibbonTab.Groups>
-    </ribbon:RibbonTab>
-  </ribbon:Ribbon>
-  -->
 </ribbon:RibbonWindow>

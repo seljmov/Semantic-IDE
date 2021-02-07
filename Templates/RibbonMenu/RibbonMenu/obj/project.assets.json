@@ -4163,7 +4163,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Raziyat\\.nuget\\packages\\": {}
+    "C:\\Users\\seljmov\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4171,11 +4171,11 @@
       "projectUniqueName": "C:\\Github\\Semantic-IDE\\Templates\\RibbonMenu\\RibbonMenu\\RibbonMenu.csproj",
       "projectName": "RibbonMenu",
       "projectPath": "C:\\Github\\Semantic-IDE\\Templates\\RibbonMenu\\RibbonMenu\\RibbonMenu.csproj",
-      "packagesPath": "C:\\Users\\Raziyat\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\seljmov\\.nuget\\packages\\",
       "outputPath": "C:\\Github\\Semantic-IDE\\Templates\\RibbonMenu\\RibbonMenu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Raziyat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\seljmov\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
