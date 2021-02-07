@@ -1,0 +1,20 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="Semantic.Views.Controls.StatusBar">
+
+  <Border BorderBrush="Gray" BorderThickness="1" Padding="4">
+    <ItemsControl x:Name="statusBar" Grid.Row="2" Height="30">
+      <ItemsControl.ItemsPanel>
+        <ItemsPanelTemplate>
+          <DockPanel>
+            <TextBlock x:Name="statusBarLabel" Foreground="Black" FontSize="13" FontFamily="Segoe UI" MaxWidth="840" HorizontalAlignment="Left" VerticalAlignment="Center" Text="Message"/>
+            <Slider Minimum="0.5" Maximum="1.5" Value="1" LargeChange="0.25" SmallChange="0.25" TickFrequency="0.25" IsSnapToTickEnabled="True" HorizontalAlignment="Right" VerticalAlignment="Center" Width="120" Margin="10, 0"></Slider>
+          </DockPanel>
+        </ItemsPanelTemplate>
+      </ItemsControl.ItemsPanel>
+    </ItemsControl>
+  </Border>
+</UserControl>

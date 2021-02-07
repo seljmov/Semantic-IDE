@@ -1,0 +1,1 @@
+# Memories of how the Semantic IDE was created

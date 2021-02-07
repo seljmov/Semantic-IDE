@@ -70,7 +70,7 @@
       <Image Source="/Assets/Icons/PanelsGetDefaultPosition.png" />
     </ControlTemplate>
   </ribbon:RibbonWindow.Resources>
-  
+
   <ribbon:RibbonWindow.Styles>
     <Style Selector="TextBlock.FixedFontSize">
       <Setter Property="FontSize" Value="11" />
@@ -91,7 +91,7 @@
       <Setter Property="Margin" Value="0,0,8,0" />
     </Style>
   </ribbon:RibbonWindow.Styles>
-  
+
   <ribbon:Ribbon>
     <ribbon:Ribbon.Menu></ribbon:Ribbon.Menu>
     <ribbon:Ribbon.Tabs>
