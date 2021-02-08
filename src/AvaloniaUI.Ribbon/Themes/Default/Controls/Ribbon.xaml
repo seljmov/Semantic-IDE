@@ -26,7 +26,7 @@
     <Setter Property="Foreground" Value="{DynamicResource ThemeForegroundBrush}" />
     <Setter Property="Template">
       <ControlTemplate>
-        <DockPanel Background="Transparent" Margin="0,30,0,0">
+        <DockPanel Background="Transparent" Margin="0,0,0,0">
           <DockPanel.Resources>
             <PathGeometry x:Key="TabHeadersClipBorderClip">
               <PathFigure StartPoint="0,0" IsClosed="True">
