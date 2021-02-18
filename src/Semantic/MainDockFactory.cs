@@ -9,6 +9,7 @@ using Semantic.ViewModels.Tools;
 using Dock.Avalonia.Controls;
 using Dock.Model;
 using Dock.Model.Controls;
+using Semantic.Scripts;
 
 namespace Semantic
 {

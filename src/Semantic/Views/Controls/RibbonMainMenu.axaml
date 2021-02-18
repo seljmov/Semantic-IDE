@@ -3,8 +3,9 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:ribbon="clr-namespace:AvaloniaUI.Ribbon;assembly=AvaloniaUI.Ribbon"
+             xmlns:lang="clr-namespace:Semantic.Scripts"
              x:Class="Semantic.Views.Controls.RibbonMainMenu">
-
+  
   <ribbon:RibbonWindow.Resources>
     <ControlTemplate x:Key="NewModule">
       <Image Source="/Assets/Icons/NewModule.png" />
@@ -95,96 +96,96 @@
   <ribbon:Ribbon>
     <ribbon:Ribbon.Menu></ribbon:Ribbon.Menu>
     <ribbon:Ribbon.Tabs>
-      <ribbon:RibbonTab Header="Работа">
+      <ribbon:RibbonTab Header="{lang:Localization WorkTab}">
         <ribbon:RibbonTab.Groups>
-          <ribbon:RibbonGroupBox Header="Модули">
+          <ribbon:RibbonGroupBox Header="{lang:Localization ModulesTitle}">
             <Grid RowDefinitions="Auto" ColumnDefinitions="Auto,Auto">
               <StackPanel Grid.Column="0" HorizontalAlignment="Center">
                 <ribbon:RibbonButton Icon="{DynamicResource NewModule}" MaxSize="Medium">
                   <ribbon:RibbonButton.Content>
-                    <TextBlock Text="Создать" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization NewModule}" Classes="FixedFontSize" />
                   </ribbon:RibbonButton.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Создать новый модуль (Ctrl+Alt+N)" />
+                    <TextBlock Text="{lang:Localization NewModuleTip}" />
                   </ToolTip.Tip>
                 </ribbon:RibbonButton>
                 <ribbon:RibbonButton Icon="{DynamicResource AddModule}" MaxSize="Medium">
                   <ribbon:RibbonButton.Content>
-                    <TextBlock Text="Включить" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization AddModule}" Classes="FixedFontSize" />
                   </ribbon:RibbonButton.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Включить модуль в проект (Ctrl+Alt+O)" />
+                    <TextBlock Text="{lang:Localization AddModuleTip}" />
                   </ToolTip.Tip>
                 </ribbon:RibbonButton>
                 <ribbon:RibbonButton Icon="{DynamicResource ExcludeModule}" MaxSize="Medium">
                   <ribbon:RibbonButton.Content>
-                    <TextBlock Text="Исключить" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization ExcludeModule}" Classes="FixedFontSize" />
                   </ribbon:RibbonButton.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Исключить выделенный модуль из проекта (Ctrl+Alt+D)" />
+                    <TextBlock Text="{lang:Localization ExcludeModuleTip})" />
                   </ToolTip.Tip>
                 </ribbon:RibbonButton>
               </StackPanel>
               <StackPanel Grid.Column="1" HorizontalAlignment="Center">
                 <ribbon:RibbonButton Icon="{DynamicResource SetStartModule}" MaxSize="Medium">
                   <ribbon:RibbonButton.Content>
-                    <TextBlock Text="Сделать стартовым" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization SetStartModule}" Classes="FixedFontSize" />
                   </ribbon:RibbonButton.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Начинать выполнение проекта с выделенного модуля (F4)" />
+                    <TextBlock Text="{lang:Localization SetStartModuleTip}" />
                   </ToolTip.Tip>
                 </ribbon:RibbonButton>
                 <ribbon:RibbonButton Icon="{DynamicResource CancelStartModule}" MaxSize="Medium">
                   <ribbon:RibbonButton.Content>
-                    <TextBlock Text="Отменить стартовый" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization CanselStartModule}" Classes="FixedFontSize" />
                   </ribbon:RibbonButton.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Отменить выполнение проекта с выделенного модуля (Ctrl+Alt+D)" />
+                    <TextBlock Text="{lang:Localization CanselStartModuleTip}" />
                   </ToolTip.Tip>
                 </ribbon:RibbonButton>
               </StackPanel>
             </Grid>
           </ribbon:RibbonGroupBox>
-          <ribbon:RibbonGroupBox Header="Отладка">
+          <ribbon:RibbonGroupBox Header="{lang:Localization DebuggingTitle}">
             <Grid RowDefinitions="Auto" ColumnDefinitions="Auto,Auto">
               <StackPanel Grid.Column="0" HorizontalAlignment="Center">
                 <ribbon:RibbonButton Icon="{DynamicResource Run}" MaxSize="Medium">
                   <ribbon:RibbonButton.Content>
-                    <TextBlock Text="Запустить" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization Run}" Classes="FixedFontSize" />
                   </ribbon:RibbonButton.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Запустить проект на выполнение (F5)" />
+                    <TextBlock Text="{lang:Localization RunTip}" />
                   </ToolTip.Tip>
                 </ribbon:RibbonButton>
                 <ribbon:RibbonButton Icon="{DynamicResource Stop}" MaxSize="Medium">
                   <ribbon:RibbonButton.Content>
-                    <TextBlock Text="Остановить" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization Stop}" Classes="FixedFontSize" />
                   </ribbon:RibbonButton.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Остановить выполнение проекта (F6)" />
+                    <TextBlock Text="{lang:Localization StopTip}" />
                   </ToolTip.Tip>
                 </ribbon:RibbonButton>
                 <ribbon:RibbonButton Icon="{DynamicResource Visualization}" MaxSize="Medium">
                   <ribbon:RibbonButton.Content>
-                    <TextBlock Text="Визуализировать" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization Vizualization}" Classes="FixedFontSize" />
                   </ribbon:RibbonButton.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Запустить визуализацию выполнения проекта (F7)" />
+                    <TextBlock Text="{lang:Localization VizualizationTip}" />
                   </ToolTip.Tip>
                 </ribbon:RibbonButton>
               </StackPanel>
             </Grid>
           </ribbon:RibbonGroupBox>
-          <ribbon:RibbonGroupBox Header="Правка">
+          <ribbon:RibbonGroupBox Header="{lang:Localization EditTitle}">
             <Grid RowDefinitions="Auto,Auto" ColumnDefinitions="25,25">
               <ribbon:RibbonButton Grid.Row="0" Grid.Column="0" Icon="{DynamicResource Undo}" MaxSize="Medium">
                 <ToolTip.Tip>
-                  <TextBlock Text="Отменить (Ctrl+Z)" />
+                  <TextBlock Text="{lang:Localization UndoTip}" />
                 </ToolTip.Tip>
               </ribbon:RibbonButton>
               <ribbon:RibbonButton Grid.Row="0" Grid.Column="1" Icon="{DynamicResource Redo}" MaxSize="Medium">
                 <ToolTip.Tip>
-                  <TextBlock Text="Повторить (Ctrl+Y)" />
+                  <TextBlock Text="{lang:Localization RedoTip}" />
                 </ToolTip.Tip>
               </ribbon:RibbonButton>
             </Grid>
@@ -192,146 +193,153 @@
         </ribbon:RibbonTab.Groups>
       </ribbon:RibbonTab>
 
-      <ribbon:RibbonTab Header="Настройки">
+      <ribbon:RibbonTab Header="{lang:Localization SettingsTab}">
         <ribbon:RibbonTab.Groups>
-          <ribbon:RibbonGroupBox Header="Язык">
+          <ribbon:RibbonGroupBox Header="{lang:Localization LanguageTitle}">
             <StackPanel>
               <Grid RowDefinitions="25" ColumnDefinitions="100,*">
-                <TextBlock Grid.Column="0" Text="Язык интерфейса" Classes="FixedFontSize BoxMargin" />
-                <ComboBox  Grid.Column="1" SelectedIndex="0" Classes="FixedBoxItemSize FixedBoxWidth">
-                  <ComboBoxItem>Русский</ComboBoxItem>
-                  <ComboBoxItem>English</ComboBoxItem>
+                <TextBlock Grid.Column="0" Text="{lang:Localization InterfaceLanguage}" Classes="FixedFontSize BoxMargin" />
+                <ComboBox  Grid.Column="1" SelectedIndex="0" SelectionChanged="OnLanguageChanged" Classes="FixedBoxItemSize FixedBoxWidth">
+                  <ComboBoxItem Content="Русский" />
+                  <ComboBoxItem Content="English" />
                 </ComboBox>
               </Grid>
               <Grid RowDefinitions="25" ColumnDefinitions="100,*">
-                <TextBlock Grid.Column="0" Text="Язык лексем" Classes="FixedFontSize BoxMargin" />
+                <TextBlock Grid.Column="0" Text="{lang:Localization TokensLanguage}" Classes="FixedFontSize BoxMargin" />
                 <ComboBox  Grid.Column="1" SelectedIndex="0" Classes="FixedBoxItemSize FixedBoxWidth">
-                  <ComboBoxItem>Русский</ComboBoxItem>
-                  <ComboBoxItem>English</ComboBoxItem>
+                  <ComboBoxItem Content="Русский" />
+                  <ComboBoxItem Content="English" />
                 </ComboBox>
               </Grid>
               <Grid RowDefinitions="25" ColumnDefinitions="100,*">
-                <TextBlock Grid.Column="0" Text="Синтаксис языка" Classes="FixedFontSize BoxMargin" />
+                <TextBlock Grid.Column="0" Text="{lang:Localization SyntaxLanguage}" Classes="FixedFontSize BoxMargin" />
                 <ComboBox  Grid.Column="1" SelectedIndex="4" Classes="FixedBoxItemSize FixedBoxWidth">
-                  <ComboBoxItem>Basic</ComboBoxItem>
-                  <ComboBoxItem>C++</ComboBoxItem>
-                  <ComboBoxItem>Pascal</ComboBoxItem>
-                  <ComboBoxItem>Python</ComboBoxItem>
-                  <ComboBoxItem>Semantic Language</ComboBoxItem>
+                  <ComboBoxItem Content="Basic" />
+                  <ComboBoxItem Content="C++" />
+                  <ComboBoxItem Content="Pascal" />
+                  <ComboBoxItem Content="Python" />
+                  <ComboBoxItem Content="Semantic Language" />
                 </ComboBox>
               </Grid>
             </StackPanel>
           </ribbon:RibbonGroupBox>
-          <ribbon:RibbonGroupBox Header="Интерпретатор">
+          <ribbon:RibbonGroupBox Header="{lang:Localization InterpreterTitle}">
             <Grid RowDefinitions="25" ColumnDefinitions="115,Auto">
-              <TextBlock Grid.Column="0" Text="Режим копирования" Classes="FixedFontSize BoxMargin" />
+              <TextBlock Grid.Column="0" Text="{lang:Localization CopyMode}" Classes="FixedFontSize BoxMargin" />
               <ComboBox  Grid.Column="1" SelectedIndex="1" Classes="FixedBoxItemSize FixedMediumBoxWidth">
-                <ComboBoxItem>Глубокий</ComboBoxItem>
-                <ComboBoxItem>Поверхностный</ComboBoxItem>
+                <ComboBoxItem Content="{lang:Localization DeepMode}" />
+                <ComboBoxItem Content="{lang:Localization SurfaceMode}" />
               </ComboBox>
             </Grid>
             <CheckBox>
               <CheckBox.Content>
-                <TextBlock Text="Открывать файлы после выполнения"  Classes="FixedFontSize" />
+                <TextBlock Text="{lang:Localization OpenFilesBeforeRun}"  Classes="FixedFontSize" />
               </CheckBox.Content>
             </CheckBox>
           </ribbon:RibbonGroupBox>
-          <ribbon:RibbonGroupBox Header="Редактор">
+          <ribbon:RibbonGroupBox Header="{lang:Localization EditorTitle}">
             <Grid RowDefinitions="Auto" ColumnDefinitions="Auto,Auto">
               <Grid Grid.Column="0" RowDefinitions="24,24,24" ColumnDefinitions="90,*" Classes="ColumnRightMargin">
-                <TextBlock Grid.Row="0" Grid.Column="0" Text="Шрифт" Classes="FixedFontSize BoxMargin"/>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="{lang:Localization Font}" Classes="FixedFontSize BoxMargin"/>
                 <ComboBox  Grid.Row="0" Grid.Column="1" SelectedIndex="2" Classes="FixedBoxItemSize FixedMediumBoxWidth">
-                  <ComboBoxItem FontFamily="Arial">Arial</ComboBoxItem>
-                  <ComboBoxItem FontFamily="Calibri">Calibri</ComboBoxItem>
-                  <ComboBoxItem FontFamily="Consolas">Consolas</ComboBoxItem>
-                  <ComboBoxItem FontFamily="Courier New">Courier New</ComboBoxItem>
-                  <ComboBoxItem FontFamily="Georgia">Georgia</ComboBoxItem>
-                  <ComboBoxItem FontFamily="Lucida Sans Unicode">Lucida Sans Unicode</ComboBoxItem>
-                  <ComboBoxItem FontFamily="Segou UI">Segou UI</ComboBoxItem>
-                  <ComboBoxItem FontFamily="Times New Roman">Times New Roman</ComboBoxItem>
-                  <ComboBoxItem FontFamily="Trebuchet MS">Trebuchet MS</ComboBoxItem>
-                  <ComboBoxItem FontFamily="Verdana">Verdana</ComboBoxItem>
+                  <ComboBoxItem FontFamily="Arial" Content="Arial" />
+                  <ComboBoxItem FontFamily="Calibri" Content="Calibri" />
+                  <ComboBoxItem FontFamily="Consolas" Content="Consolas" />
+                  <ComboBoxItem FontFamily="Courier New" Content="Courier New" />
+                  <ComboBoxItem FontFamily="Georgia" Content="Georgia" />
+                  <ComboBoxItem FontFamily="Lucida Sans Unicode" Content="Lucida Sans Unicode" />
+                  <ComboBoxItem FontFamily="Segou UI" Content="Segou UI" />
+                  <ComboBoxItem FontFamily="Times New Roman" Content="Times New Roman" />
+                  <ComboBoxItem FontFamily="Trebuchet MS" Content="Trebuchet MS" />
+                  <ComboBoxItem FontFamily="Verdana" Content="Verdana" />
                 </ComboBox>
-                <TextBlock Grid.Row="1" Grid.Column="0" Text="Размер шрифта" Classes="FixedFontSize BoxMargin"/>
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="{lang:Localization FontSize}" Classes="FixedFontSize BoxMargin"/>
                 <ComboBox  Grid.Row="1" Grid.Column="1" SelectedIndex="3" Classes="FixedBoxItemSize FixedMediumBoxWidth">
-                  <ComboBoxItem FontSize="8">8</ComboBoxItem>
-                  <ComboBoxItem FontSize="9">9</ComboBoxItem>
-                  <ComboBoxItem FontSize="10">10</ComboBoxItem>
-                  <ComboBoxItem FontSize="11">11</ComboBoxItem>
-                  <ComboBoxItem FontSize="12">12</ComboBoxItem>
-                  <ComboBoxItem FontSize="13">13</ComboBoxItem>
-                  <ComboBoxItem FontSize="14">14</ComboBoxItem>
-                  <ComboBoxItem FontSize="15">15</ComboBoxItem>
-                  <ComboBoxItem FontSize="16">16</ComboBoxItem>
+                  <ComboBoxItem FontSize="8" Content="8" />
+                  <ComboBoxItem FontSize="9" Content="9" />
+                  <ComboBoxItem FontSize="10" Content="10" />
+                  <ComboBoxItem FontSize="11" Content="11" />
+                  <ComboBoxItem FontSize="12" Content="12" />
+                  <ComboBoxItem FontSize="13" Content="13" />
+                  <ComboBoxItem FontSize="14" Content="14" />
+                  <ComboBoxItem FontSize="15" Content="15" />
+                  <ComboBoxItem FontSize="16" Content="16" />
                 </ComboBox>
-                <TextBlock Grid.Row="2" Grid.Column="0" Text="Навигация" Classes="FixedFontSize BoxMargin"/>
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="{lang:Localization Navigation}" Classes="FixedFontSize BoxMargin"/>
                 <ComboBox  Grid.Row="2" Grid.Column="1" SelectedIndex="1" Classes="FixedBoxItemSize FixedMediumBoxWidth">
-                  <ComboBoxItem>Семантическая</ComboBoxItem>
-                  <ComboBoxItem>Текстовая</ComboBoxItem>
+                  <ComboBoxItem Content="{lang:Localization SemanticNavigation}" />
+                  <ComboBoxItem Content="{lang:Localization TextNavigation}" />
                 </ComboBox>
               </Grid>
               <Grid Grid.Column="1" RowDefinitions="24,24,24" ColumnDefinitions="Auto">
                 <CheckBox Grid.Row="0" IsChecked="True">
                   <CheckBox.Content>
-                    <TextBlock Text="Показывать 'псевдослова'" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization ShowPseudo}" Classes="FixedFontSize" />
                   </CheckBox.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Определяет, нужно ли подсвечивать слова, которые отсутствуют в оригинальном синтаксисе языка" />
+                    <TextBlock Text="{lang:Localization ShowPseudoTip}" />
                   </ToolTip.Tip>
                 </CheckBox>
                 <CheckBox Grid.Row="1" IsChecked="True">
                   <CheckBox.Content>
-                    <TextBlock Text="Подсвечивать синтаксис" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization HighlightSyntax}" Classes="FixedFontSize" />
                   </CheckBox.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Определяет, нужно ли подсвечивать синтаксис языка" />
+                    <TextBlock Text="{lang:Localization HighlightSyntaxTip}" />
                   </ToolTip.Tip>
                 </CheckBox>
                 <CheckBox Grid.Row="2" IsChecked="True">
                   <CheckBox.Content>
-                    <TextBlock Text="Переносить параметры" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization TransferParameters}" Classes="FixedFontSize" />
                   </CheckBox.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Определяет, нужно ли переносить параметры на следующую строку, если они не умещаются на экране" />
+                    <TextBlock Text="{lang:Localization TransferParametersTip}" />
                   </ToolTip.Tip>
                 </CheckBox>
               </Grid>
             </Grid>
           </ribbon:RibbonGroupBox>
-          <ribbon:RibbonGroupBox Header="Интерфейс">
+          <ribbon:RibbonGroupBox Header="{lang:Localization InterfaceTitle}">
             <Grid RowDefinitions="Auto" ColumnDefinitions="Auto,Auto">
               <Grid RowDefinitions="24,24,24" ColumnDefinitions="90,*" Classes="ColumnRightMargin">
-                <TextBlock Grid.Row="0" Grid.Column="0" Text="Шрифт" Classes="FixedFontSize BoxMargin"/>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="{lang:Localization Font}" Classes="FixedFontSize BoxMargin"/>
                 <ComboBox  Grid.Row="0" Grid.Column="1" SelectedIndex="0" Classes="FixedBoxItemSize FixedMediumBoxWidth">
-                  <ComboBoxItem FontFamily="Consolas">Consolas</ComboBoxItem>
-                  <ComboBoxItem FontFamily="Courier New">Courier New</ComboBoxItem>
+                  <ComboBoxItem FontFamily="Arial" Content="Arial" />
+                  <ComboBoxItem FontFamily="Calibri" Content="Calibri" />
+                  <ComboBoxItem FontFamily="Consolas" Content="Consolas" />
+                  <ComboBoxItem FontFamily="Courier New" Content="Courier New" />
+                  <ComboBoxItem FontFamily="Georgia" Content="Georgia" />
+                  <ComboBoxItem FontFamily="Lucida Sans Unicode" Content="Lucida Sans Unicode" />
+                  <ComboBoxItem FontFamily="Segou UI" Content="Segou UI" />
+                  <ComboBoxItem FontFamily="Times New Roman" Content="Times New Roman" />
+                  <ComboBoxItem FontFamily="Trebuchet MS" Content="Trebuchet MS" />
+                  <ComboBoxItem FontFamily="Verdana" Content="Verdana" />
                 </ComboBox>
-                <TextBlock Grid.Row="1" Grid.Column="0" Text="Размер шрифта" Classes="FixedFontSize BoxMargin"/>
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="{lang:Localization FontSize}" Classes="FixedFontSize BoxMargin"/>
                 <ComboBox  Grid.Row="1" Grid.Column="1" SelectedIndex="3" Classes="FixedBoxItemSize FixedMediumBoxWidth">
-                  <ComboBoxItem FontSize="8">8</ComboBoxItem>
-                  <ComboBoxItem FontSize="9">9</ComboBoxItem>
-                  <ComboBoxItem FontSize="10">10</ComboBoxItem>
-                  <ComboBoxItem FontSize="11">11</ComboBoxItem>
-                  <ComboBoxItem FontSize="12">12</ComboBoxItem>
-                  <ComboBoxItem FontSize="13">13</ComboBoxItem>
-                  <ComboBoxItem FontSize="14">14</ComboBoxItem>
-                  <ComboBoxItem FontSize="15">15</ComboBoxItem>
-                  <ComboBoxItem FontSize="16">16</ComboBoxItem>
+                  <ComboBoxItem FontSize="8" Content="8" />
+                  <ComboBoxItem FontSize="9" Content="9" />
+                  <ComboBoxItem FontSize="10" Content="10" />
+                  <ComboBoxItem FontSize="11" Content="11" />
+                  <ComboBoxItem FontSize="12" Content="12" />
+                  <ComboBoxItem FontSize="13" Content="13" />
+                  <ComboBoxItem FontSize="14" Content="14" />
+                  <ComboBoxItem FontSize="15" Content="15" />
+                  <ComboBoxItem FontSize="16" Content="16" />
                 </ComboBox>
-                <TextBlock Grid.Row="2" Grid.Column="0" Text="Тема" Classes="FixedFontSize BoxMargin"/>
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="{lang:Localization Theme}" Classes="FixedFontSize BoxMargin"/>
                 <ComboBox  Grid.Row="2" Grid.Column="1" SelectedIndex="0" Classes="FixedBoxItemSize FixedMediumBoxWidth">
-                  <ComboBoxItem>Светлая</ComboBoxItem>
-                  <ComboBoxItem>Темная</ComboBoxItem>
-                  <ComboBoxItem>Синяя</ComboBoxItem>
+                  <ComboBoxItem Content="{lang:Localization LightTheme}" />
+                  <ComboBoxItem Content="{lang:Localization DarkTheme}" />
                 </ComboBox>
               </Grid>
               <Grid Grid.Column="1" RowDefinitions="24,Auto" ColumnDefinitions="Auto">
                 <CheckBox Grid.Row="0" IsChecked="True">
                   <CheckBox.Content>
-                    <TextBlock Text="Показывать подсказки" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization ShowHints}" Classes="FixedFontSize" />
                   </CheckBox.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Определяет, нужно ли показывать подсказки внизу окна редактора" />
+                    <TextBlock Text="{lang:Localization ShowHintsTip}" />
                   </ToolTip.Tip>
                 </CheckBox>
               </Grid>
@@ -340,88 +348,88 @@
         </ribbon:RibbonTab.Groups>
       </ribbon:RibbonTab>
 
-      <ribbon:RibbonTab Header="Вид">
+      <ribbon:RibbonTab Header="{lang:Localization ViewTab}">
         <ribbon:RibbonTab.Groups>
-          <ribbon:RibbonGroupBox Header="Обозреватели">
+          <ribbon:RibbonGroupBox Header="{lang:Localization ReviewersTitle}">
             <Grid RowDefinitions="Auto" ColumnDefinitions="Auto,Auto">
               <StackPanel Grid.Column="0" HorizontalAlignment="Center">
                 <ribbon:RibbonButton Icon="{DynamicResource Project}" MaxSize="Medium">
                   <ribbon:RibbonButton.Content>
-                    <TextBlock Text="Проект" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization Project}" Classes="FixedFontSize" />
                   </ribbon:RibbonButton.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Показать/скрыть структуру проекта" />
+                    <TextBlock Text="{lang:Localization ProjectTip}" />
                   </ToolTip.Tip>
                 </ribbon:RibbonButton>
                 <ribbon:RibbonButton Icon="{DynamicResource Taskbook}" MaxSize="Medium">
                   <ribbon:RibbonButton.Content>
-                    <TextBlock Text="Задачник" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization Taskbook}" Classes="FixedFontSize" />
                   </ribbon:RibbonButton.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Показать/скрыть задачник" />
+                    <TextBlock Text="{lang:Localization TaskbookTip}" />
                   </ToolTip.Tip>
                 </ribbon:RibbonButton>
                 <ribbon:RibbonButton Icon="{DynamicResource Help}" MaxSize="Medium">
                   <ribbon:RibbonButton.Content>
-                    <TextBlock Text="Документация" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization Help}" Classes="FixedFontSize" />
                   </ribbon:RibbonButton.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Показать/скрыть документацию" />
+                    <TextBlock Text="{lang:Localization HelpTip}" />
                   </ToolTip.Tip>
                 </ribbon:RibbonButton>
               </StackPanel>
               <StackPanel Grid.Column="1" HorizontalAlignment="Center">
                 <ribbon:RibbonButton Icon="{DynamicResource ErrorsList}" MaxSize="Medium">
                   <ribbon:RibbonButton.Content>
-                    <TextBlock Text="Ошибки" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization ErrorsList}" Classes="FixedFontSize" />
                   </ribbon:RibbonButton.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Показать/скрыть список ошибок" />
+                    <TextBlock Text="{lang:Localization ErrorsListTip}" />
                   </ToolTip.Tip>
                 </ribbon:RibbonButton>
                 <ribbon:RibbonButton Icon="{DynamicResource Console}" MaxSize="Medium">
                   <ribbon:RibbonButton.Content>
-                    <TextBlock Text="Консоль" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization Console}" Classes="FixedFontSize" />
                   </ribbon:RibbonButton.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Показать/скрыть консоль" />
+                    <TextBlock Text="{lang:Localization ConsoleTip}" />
                   </ToolTip.Tip>
                 </ribbon:RibbonButton>
                 <ribbon:RibbonButton Icon="{DynamicResource CommandLog}" MaxSize="Medium">
                   <ribbon:RibbonButton.Content>
-                    <TextBlock Text="Журнал команд" Classes="FixedFontSize" />
+                    <TextBlock Text="{lang:Localization CommandLog}" Classes="FixedFontSize" />
                   </ribbon:RibbonButton.Content>
                   <ToolTip.Tip>
-                    <TextBlock Text="Показать/скрыть журнал команд" />
+                    <TextBlock Text="{lang:Localization CommandLogTip}" />
                   </ToolTip.Tip>
                 </ribbon:RibbonButton>
               </StackPanel>
             </Grid>
           </ribbon:RibbonGroupBox>
-          <ribbon:RibbonGroupBox Header="Окна">
+          <ribbon:RibbonGroupBox Header="{lang:Localization WindowsTitle}">
             <StackPanel Grid.Column="0" HorizontalAlignment="Center">
               <ribbon:RibbonButton Icon="{DynamicResource CloseDocs}" MaxSize="Medium">
                 <ribbon:RibbonButton.Content>
-                  <TextBlock Text="Закрыть все документы" Classes="FixedFontSize" />
+                  <TextBlock Text="{lang:Localization CloseDocs}" Classes="FixedFontSize" />
                 </ribbon:RibbonButton.Content>
                 <ToolTip.Tip>
-                  <TextBlock Text="Закрыть все документы (Ctrl+Alt+E)" />
+                  <TextBlock Text="{lang:Localization CloseDocsTip}" />
                 </ToolTip.Tip>
               </ribbon:RibbonButton>
               <ribbon:RibbonButton Icon="{DynamicResource PanelsHide}" MaxSize="Medium">
                 <ribbon:RibbonButton.Content>
-                  <TextBlock Text="Скрыть панели инструментов" Classes="FixedFontSize" />
+                  <TextBlock Text="{lang:Localization PanelsHide}" Classes="FixedFontSize" />
                 </ribbon:RibbonButton.Content>
                 <ToolTip.Tip>
-                  <TextBlock Text="Скрыть панель инструментов (Ctrl+Alt+R)" />
+                  <TextBlock Text="{lang:Localization PanelsHideTip}" />
                 </ToolTip.Tip>
               </ribbon:RibbonButton>
               <ribbon:RibbonButton Icon="{DynamicResource PanelsShow}" MaxSize="Medium">
                 <ribbon:RibbonButton.Content>
-                  <TextBlock Text="Показать панели инструментов" Classes="FixedFontSize" />
+                  <TextBlock Text="{lang:Localization PanelsShow}" Classes="FixedFontSize" />
                 </ribbon:RibbonButton.Content>
                 <ToolTip.Tip>
-                  <TextBlock Text="Показать панели инструментов (Ctrl+Alt+T)" />
+                  <TextBlock Text="{lang:Localization PanelsShowTip}" />
                 </ToolTip.Tip>
               </ribbon:RibbonButton>
             </StackPanel>
@@ -430,18 +438,18 @@
             <StackPanel Grid.Column="1" HorizontalAlignment="Center">
               <ribbon:RibbonButton Icon="{DynamicResource PanelsGetDefaultPosition}" MaxSize="Medium">
                 <ribbon:RibbonButton.Content>
-                  <TextBlock Text="Вернуть расположение по умолчанию" Classes="FixedFontSize" />
+                  <TextBlock Text="{lang:Localization PanelsGetDefaultPosition}" Classes="FixedFontSize" />
                 </ribbon:RibbonButton.Content>
                 <ToolTip.Tip>
-                  <TextBlock Text="Вернуть расположение обозревателей, которое сохранено как по умолчанию" />
+                  <TextBlock Text="{lang:Localization PanelsGetDefaultPositionTip}" />
                 </ToolTip.Tip>
               </ribbon:RibbonButton>
               <ribbon:RibbonButton Icon="{DynamicResource PanelsSetDefaultPosition}" MaxSize="Medium">
                 <ribbon:RibbonButton.Content>
-                  <TextBlock Text="Сохранить как расположение по умолчанию" Classes="FixedFontSize" />
+                  <TextBlock Text="{lang:Localization PanelsSetDefaultPosition}" Classes="FixedFontSize" />
                 </ribbon:RibbonButton.Content>
                 <ToolTip.Tip>
-                  <TextBlock Text="Сохранить текущее расположение обозревателей как расположение по умолчанию" />
+                  <TextBlock Text="{lang:Localization PanelsSetDefaultPositionTip}" />
                 </ToolTip.Tip>
               </ribbon:RibbonButton>
             </StackPanel>

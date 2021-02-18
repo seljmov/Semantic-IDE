@@ -7,6 +7,9 @@
   <ItemGroup>
     <Folder Include="Models\" />
     <AvaloniaResource Include="Assets\**" />
+    <Folder Include="Scripts\" />
+    <None Remove="Assets\Languages\en-EN.json" />
+    <None Remove="Assets\Languages\ru-RU.json" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="0.10.0" />
@@ -18,6 +21,7 @@
     <PackageReference Include="Dock.Avalonia.Themes.Default" Version="0.10.0-preview4" />
     <PackageReference Include="Dock.Model" Version="0.10.0-preview4" />
     <PackageReference Include="Dock.Model.ReactiveUI" Version="0.10.0-preview4" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AvaloniaUI.Ribbon\AvaloniaUI.Ribbon.csproj" />

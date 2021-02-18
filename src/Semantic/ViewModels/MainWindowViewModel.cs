@@ -1,5 +1,8 @@
 using Dock.Model;
 using ReactiveUI;
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.Markup.Xaml;
 
 namespace Semantic.ViewModels
 {
