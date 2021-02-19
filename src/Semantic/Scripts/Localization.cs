@@ -12,8 +12,8 @@ namespace Semantic.Scripts
             this.Key = key;
         }
 
-        public string Key { get; set; }
-        public string Context { get; set; }
+        public string? Key { get; set; }
+        public string? Context { get; set; }
 
         public override object ProvideValue(IServiceProvider serviceProvider)
         {
@@ -26,7 +26,7 @@ namespace Semantic.Scripts
             var binding = new ReflectionBindingExtension($"[{keyToUse}]")
             {
                 Mode = BindingMode.OneWay,
-                Source = Localizer.Instance,
+                Source = Localizer.GetInstance(),
             };
 
             return binding.ProvideValue(serviceProvider);

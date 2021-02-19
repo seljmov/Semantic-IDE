@@ -24,54 +24,58 @@ namespace Semantic
 
         public override IDock CreateLayout()
         {
+            // - В будущем текущий язык среды будет подгружаться с файла
+            Localizer.GetInstance().LoadLanguage("en-EN");
+            var Dict = Semantic.Scripts.Localizer.GetInstance().Strings;
+
             // - Подготовка панелей для объединения в layout
             // - Страница "Добро пожаловать"
             var welcome = new WelcomeViewModel
             {
                 Id = "Welcome",
-                Title = "Документ"
+                Title = Dict["WelcomePage"]
             };
             
             // - Панель "Проект"
             var project = new ProjectViewModel
             {
                 Id = "Project",
-                Title = "Проект"
+                Title = Dict["Project"]
             };
             
             // - Панель "Задачник"
             var taskbook = new TaskbookViewModel
             {
                 Id = "Taskbook",
-                Title = "Задачник"
+                Title = Dict["Taskbook"]
             };
 
             // - Панель "Документация"
             var help = new HelpViewModel
             {
                 Id = "Help",
-                Title = "Документация"
+                Title = Dict["Help"]
             };
 
             // - Панель "Ошибки"
             var errors = new ErrorsViewModel
             {
                 Id = "Errors",
-                Title = "Ошибки"
+                Title = Dict["ErrorsList"]
             };
 
             // - Панель "Журнал команд"
             var commandLog = new CommandLogViewModel
             {
                 Id = "CommandLog",
-                Title = "Журнал команд"
+                Title = Dict["CommandLog"]
             };
 
             // - Панель "Консоль"
             var console = new ConsoleViewModel
             {
                 Id = "Console",
-                Title = "Консоль"
+                Title = Dict["Console"]
             };
 
             // - Делим layout на две части: нижнюю и верхнюю
