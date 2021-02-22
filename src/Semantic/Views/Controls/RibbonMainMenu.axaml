@@ -2,9 +2,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:Semantic.ViewModels"
              xmlns:ribbon="clr-namespace:AvaloniaUI.Ribbon;assembly=AvaloniaUI.Ribbon"
              xmlns:lang="clr-namespace:Semantic.Scripts"
              x:Class="Semantic.Views.Controls.RibbonMainMenu">
+
+  <Design.DataContext>
+    <vm:RibbonMainMenuViewModel />
+  </Design.DataContext>
   
   <ribbon:RibbonWindow.Resources>
     <ControlTemplate x:Key="NewModule">
@@ -199,7 +204,7 @@
             <StackPanel>
               <Grid RowDefinitions="25" ColumnDefinitions="100,*">
                 <TextBlock Grid.Column="0" Text="{lang:Localization InterfaceLanguage}" Classes="FixedFontSize BoxMargin" />
-                <ComboBox  Grid.Column="1" SelectedIndex="0" SelectionChanged="OnLanguageChanged" Classes="FixedBoxItemSize FixedBoxWidth">
+                <ComboBox  Grid.Column="1" Name="InterfaceLanguage" SelectionChanged="OnLanguageChanged" Classes="FixedBoxItemSize FixedBoxWidth">
                   <ComboBoxItem Content="Русский" />
                   <ComboBoxItem Content="English" />
                 </ComboBox>
