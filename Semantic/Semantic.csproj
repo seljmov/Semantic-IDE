@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <AvaloniaResource Include="Assets\**" />
+    <AvaloniaXaml Remove="Solution\Items\Expression\**" />
+    <AvaloniaXaml Remove="Solution\Scanner\Errors\**" />
+    <Compile Remove="Solution\Items\Expression\**" />
+    <Compile Remove="Solution\Scanner\Errors\**" />
+    <EmbeddedResource Remove="Solution\Items\Expression\**" />
+    <EmbeddedResource Remove="Solution\Scanner\Errors\**" />
+    <Folder Include="Solution\Command History\Module Commands\" />
+    <Folder Include="Solution\Command History\Parameters Commands\" />
+    <Folder Include="Solution\Command History\Tree Commands\" />
+    <Folder Include="Solution\Command History\Word Commands\" />
+    <Folder Include="Solution\Commands Stack\Expression Commands" />
+    <Folder Include="Solution\Commands Stack\Model Commands" />
+    <Folder Include="Solution\Commands Stack\Modification Refactorings" />
+    <Folder Include="Solution\Commands Stack\Project Commands" />
+    <Folder Include="Utils\" />
+    <None Remove="Solution\Items\Expression\**" />
+    <None Remove="Solution\Scanner\Errors\**" />
+    <Folder Include="Scripts\" />
+    <None Remove="Assets\Languages\en-EN.json" />
+    <None Remove="Assets\Languages\ru-RU.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="0.10.0" />
+    <PackageReference Include="Avalonia.AvaloniaEdit" Version="0.10.0" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.10.0" />
+    <PackageReference Include="Avalonia.Diagnostics" Version="0.10.0" />
+    <PackageReference Include="Avalonia.ReactiveUI" Version="0.10.0" />
+    <PackageReference Include="Dock.Avalonia" Version="0.10.0-preview4" />
+    <PackageReference Include="Dock.Avalonia.Themes.Default" Version="0.10.0-preview4" />
+    <PackageReference Include="Dock.Model" Version="0.10.0-preview4" />
+    <PackageReference Include="Dock.Model.ReactiveUI" Version="0.10.0-preview4" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AvaloniaUI.Ribbon\AvaloniaUI.Ribbon.csproj" />
+  </ItemGroup>
+</Project>
